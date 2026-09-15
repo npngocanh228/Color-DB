@@ -1,0 +1,44 @@
+{
+    "list":[
+        {
+            "year": "2023",
+            "month": "09",
+            "activity":false,
+            "simple": {
+                "images": ["2023_09_s1.png", 
+				"2023_09_s2.png", 
+				"2023_09_s3.png", 
+				"2023_09_s4.png"],
+                "lock": [0, 0, 0, 0],
+                "duration": 1123
+            },
+            "jigsaw": {
+                "images": ["2023_09_jigsaw.png"],
+                "lock": [0, "ad", "ad", "ad"],
+                "duration": 3645
+            },
+            "mystery": {
+                "images": ["2023_09_m1.png", 
+				"2023_09_m2.png", 
+				"2023_09_m3.png", 
+				"2023_09_m4.png"],
+                "lock": [0, 0, 0, 0],
+                "duration": 2470
+            },
+            "full": {
+                "images": ["2023_09_f1.png", 
+				"2023_09_f2.png", 
+				"2023_09_f3.png", 
+				"2023_09_f4.png"],
+                "lock": [10, 10, 20, 20],
+                "duration": 4500
+            },
+            "award": {
+                "bomb": 20,
+                "bucket": 20,
+                "stick": 15,
+                "coin": 400
+            }
+        }
+    ]
+}

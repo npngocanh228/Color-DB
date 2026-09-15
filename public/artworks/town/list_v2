@@ -1,0 +1,100 @@
+{
+  "scenes": [
+    {
+      "uuid": "996992513f50270f0d36d1e286f7c2fc",
+      "preview": "foodStreet/preview.png",
+      "lockImg": "foodStreet/lock.png",
+      "unLockImg": "foodStreet/unlock.png",
+      "resource": "town/foodStreet_v2.zip",
+      "lockX": 318,
+      "lockY": 253,
+      "jsonPath": "foodStreet/foodStreet.json",
+      "music": "foodStreet/resource/music.mp3",
+      "clouds": [
+        {
+          "x": 684,
+          "y": 174,
+          "path": "foodStreet/cloud1_684_174.png"
+        },
+        {
+          "y": 516,
+          "path": "foodStreet/cloud2_766_516.png",
+          "x": 766
+        }
+      ],
+      "name": "foodStreet"
+    },
+    {
+      "name": "seaFloor",
+      "lockY": 282,
+      "resource": "town/seaFloor_v2.zip",
+      "clouds": [
+        {
+          "y": 282,
+          "path": "seaFloor/cloud1_60_282.png",
+          "x": 60
+        },
+        {
+          "y": 542,
+          "x": 389,
+          "path": "seaFloor/cloud2_389_542.png"
+        }
+      ],
+      "jsonPath": "seaFloor/seaFloor.json",
+      "music": "seaFloor/resource/music.mp3",
+      "lockX": 270,
+      "unLockImg": "seaFloor/unlock.png",
+      "preview": "seaFloor/preview.png",
+      "lockImg": "seaFloor/lock.png",
+      "uuid": "e35f5be56dd7f93f6afd0ae3433096ca"
+    },
+    {
+      "name": "magicTown",
+      "clouds": [
+        {
+          "x": 553,
+          "y": 520,
+          "path": "magicTown/cloud2_553_520.png"
+        },
+        {
+          "path": "magicTown/cloud1_822_245.png",
+          "x": 822,
+          "y": 245
+        }
+      ],
+      "lockY": 260,
+      "lockImg": "magicTown/lock.png",
+      "resource": "town/magicTown_v2.zip",
+      "lockX": 287,
+      "preview": "magicTown/preview.png",
+      "uuid": "fdb227ae356ba5af9353db38974493e0",
+      "unLockImg": "magicTown/unlock.png",
+      "jsonPath": "magicTown/magicTown.json",
+      "music": "magicTown/resource/music.mp3"
+    },
+    {
+      "lockY": 230,
+      "lockImg": "sakuraStreet/lock.png",
+      "jsonPath": "sakuraStreet/sakuraStreet.json",
+      "unLockImg": "sakuraStreet/unlock.png",
+      "name": "sakuraStreet",
+      "clouds": [
+        {
+          "path": "sakuraStreet/cloud2_112_164.png",
+          "x": 112,
+          "y": 164
+        },
+        {
+          "y": 484,
+          "path": "sakuraStreet/cloud1_420_484.png",
+          "x": 420
+        }
+      ],
+      "preview": "sakuraStreet/preview.png",
+      "resource": "town/sakuraStreet_v2.zip",
+      "lockX": 287,
+      "uuid": "99cc25c2fbe69c2424070b4837860fb5",
+      "music": "sakuraStreet/resource/music.mp3"
+    }
+  ]
+}
