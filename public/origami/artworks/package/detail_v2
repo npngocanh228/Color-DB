@@ -1,0 +1,383 @@
+{
+  "index": 2,
+  "cNIndex": 2,
+  "packages": [
+    {
+      "name": "Winter Scene",
+      "path": "Winter_Scene",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "updateDate": "20231230",
+      "name_cn": "冬日美景",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 60
+        },
+        {
+          "img": "03.png",
+          "coin": 60
+        },
+        {
+          "img": "04.png",
+          "coin": 60
+        },
+        {
+          "img": "05.png",
+          "coin": 60
+        },
+        {
+          "img": "06.png",
+          "coin": 60
+        },
+        {
+          "img": "07.png",
+          "coin": 60
+        },
+        {
+          "img": "08.png",
+          "coin": 60
+        }
+      ]
+    },
+    {
+      "name": "Anime2",
+      "path": "anime2",
+      "name_cn": "动漫女孩2",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "gem": 1,
+      "newGem": 120,
+      "coin": 500,
+      "updateDate": "20220820",
+      "data": [
+        {
+          "img": "01.png"
+        },
+        {
+          "img": "02.png"
+        },
+        {
+          "img": "03.png"
+        },
+        {
+          "img": "04.png"
+        },
+        {
+          "img": "05.png"
+        },
+        {
+          "img": "06.png"
+        },
+        {
+          "img": "07.png"
+        },
+        {
+          "img": "08.png"
+        }
+      ]
+    },
+    {
+      "name": "Scenery",
+      "path": "scenery",
+      "name_cn": "美丽景色",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "updateDate": "20220528",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 30
+        },
+        {
+          "img": "03.png",
+          "coin": 40
+        },
+        {
+          "img": "04.png",
+          "coin": 40
+        },
+        {
+          "img": "05.png",
+          "coin": 40
+        },
+        {
+          "img": "06.png",
+          "coin": 40
+        },
+        {
+          "img": "07.png",
+          "coin": 40
+        },
+        {
+          "img": "08.png",
+          "coin": 40
+        }
+      ]
+    },
+    {
+      "name": "Adventure",
+      "path": "adventure",
+      "name_cn": "探险日记",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 30
+        },
+        {
+          "img": "03.png",
+          "coin": 40
+        },
+        {
+          "img": "04.png",
+          "coin": 40
+        },
+        {
+          "img": "05.png",
+          "coin": 30
+        },
+        {
+          "img": "06.png",
+          "coin": 40
+        },
+        {
+          "img": "07.png",
+          "coin": 40
+        },
+        {
+          "img": "08.png",
+          "coin": 50
+        }
+      ]
+    },
+    {
+      "name": "Wedding",
+      "path": "wedding",
+      "name_cn": "婚礼现场",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 30
+        },
+        {
+          "img": "03.png",
+          "coin": 30
+        },
+        {
+          "img": "04.png",
+          "coin": 40
+        },
+        {
+          "img": "05.png",
+          "coin": 30
+        },
+        {
+          "img": "06.png",
+          "coin": 40
+        },
+        {
+          "img": "07.png",
+          "coin": 30
+        },
+        {
+          "img": "08.png",
+          "coin": 50
+        }
+      ]
+    },
+    {
+      "name": "Unicorn",
+      "path": "unicorn",
+      "name_cn": "彩虹独角兽",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 50
+        },
+        {
+          "img": "03.png",
+          "coin": 50
+        },
+        {
+          "img": "04.png",
+          "coin": 50
+        },
+        {
+          "img": "05.png",
+          "coin": 50
+        },
+        {
+          "img": "06.png",
+          "coin": 50
+        },
+        {
+          "img": "07.png",
+          "coin": 50
+        },
+        {
+          "img": "08.png",
+          "coin": 50
+        }
+      ]
+    },
+    {
+      "name": "Lovely Cat",
+      "path": "cat",
+      "name_cn": "可爱猫猫",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 40
+        },
+        {
+          "img": "03.png",
+          "coin": 40
+        },
+        {
+          "img": "04.png",
+          "coin": 40
+        },
+        {
+          "img": "05.png",
+          "coin": 40
+        },
+        {
+          "img": "06.png",
+          "coin": 40
+        },
+        {
+          "img": "07.png",
+          "coin": 40
+        },
+        {
+          "img": "08.png",
+          "coin": 40
+        }
+      ]
+    },
+    {
+      "name": "Anime",
+      "path": "anime",
+      "name_cn": "动漫女孩",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 30
+        },
+        {
+          "img": "03.png",
+          "coin": 30
+        },
+        {
+          "img": "04.png",
+          "coin": 30
+        },
+        {
+          "img": "05.png",
+          "coin": 30
+        },
+        {
+          "img": "06.png",
+          "coin": 30
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "path": "ice",
+      "name_cn": "夏日冰淇淋",
+      "thumb": "thumb_new.png",
+      "bg": "banner3.png",
+      "bg_title": "banner_title.png",
+      "bg_content": "banner_content.png",
+      "data": [
+        {
+          "img": "01.png",
+          "coin": 0
+        },
+        {
+          "img": "02.png",
+          "coin": 30
+        },
+        {
+          "img": "03.png",
+          "coin": 30
+        },
+        {
+          "img": "04.png",
+          "coin": 30
+        },
+        {
+          "img": "05.png",
+          "coin": 30
+        },
+        {
+          "img": "06.png",
+          "coin": 30
+        },
+        {
+          "img": "07.png",
+          "coin": 30
+        },
+        {
+          "img": "08.png",
+          "coin": 30
+        }
+      ]
+    }
+  ]
+}

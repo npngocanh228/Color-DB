@@ -1,0 +1,377 @@
+{
+  "list": [
+    {
+      "year": "2024",
+      "month": "01",
+      "activity": false,
+      "levels": [
+        {
+          "images": [
+            "2024_01_s1.png",
+            "2024_01_s2.png",
+            "2024_01_s3.png",
+            "2024_01_s4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1180,
+          "name": "simple"
+        },
+        {
+          "images": [
+            "2024_01_jigsaw.png"
+          ],
+          "lock": [
+            0,
+            "ad",
+            "ad",
+            "ad"
+          ],
+          "duration": 1422,
+          "name": "jigsaw"
+        },
+        {
+          "images": [
+            "2024_01_m1.png",
+            "2024_01_m2.png",
+            "2024_01_m3.png",
+            "2024_01_m4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1548,
+          "name": "mystery"
+        },
+        {
+          "images": [
+            "2024_01_f1.png",
+            "2024_01_f2.png",
+            "2024_01_f3.png",
+            "2024_01_f4.png"
+          ],
+          "lock": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "duration": 1197,
+          "name": "full"
+        }
+      ],
+      "award": {
+        "bomb": 20,
+        "bucket": 20,
+        "stick": 15,
+        "coin": 400
+      }
+    },
+    {
+      "year": "2023",
+      "month": "12",
+      "activity": true,
+      "name": "Christmas Challenge",
+      "activityImg": "ActivityImg.png",
+      "homeImg": "homeImg.png",
+      "levels": [
+        {
+          "images": [
+            "2023_12_s1.png",
+            "2023_12_s2.png",
+            "2023_12_s3.png",
+            "2023_12_s4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 916,
+          "name": "simple"
+        },
+        {
+          "images": [
+            "2023_12_jigsaw.png"
+          ],
+          "lock": [
+            0,
+            "ad",
+            "ad",
+            "ad"
+          ],
+          "duration": 3263,
+          "name": "jigsaw"
+        },
+        {
+          "images": [
+            "2023_12_m1.png",
+            "2023_12_m2.png",
+            "2023_12_m3.png",
+            "2023_12_m4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 617,
+          "name": "mystery"
+        },
+        {
+          "images": [
+            "2023_12_f1.png",
+            "2023_12_f2.png",
+            "2023_12_f3.png",
+            "2023_12_f4.png"
+          ],
+          "lock": [
+            10,
+            10,
+            20,
+            20
+          ],
+          "duration": 1728,
+          "name": "full"
+        }
+      ],
+      "award": {
+        "bomb": 20,
+        "bucket": 20,
+        "stick": 15,
+        "coin": 400
+      }
+    },
+    {
+      "year": "2023",
+      "month": "11",
+      "activity": false,
+      "levels": [
+        {
+          "images": [
+            "2023_11_s1.png",
+            "2023_11_s2.png",
+            "2023_11_s3.png",
+            "2023_11_s4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 520,
+          "name": "simple"
+        },
+        {
+          "images": [
+            "2023_11_jigsaw.png"
+          ],
+          "lock": [
+            0,
+            "ad",
+            "ad",
+            "ad"
+          ],
+          "duration": 1526,
+          "name": "jigsaw"
+        },
+        {
+          "images": [
+            "2023_11_m1.png",
+            "2023_11_m2.png",
+            "2023_11_m3.png",
+            "2023_11_m4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1210,
+          "name": "mystery"
+        },
+        {
+          "images": [
+            "2023_11_f1.png",
+            "2023_11_f2.png",
+            "2023_11_f3.png",
+            "2023_11_f4.png"
+          ],
+          "lock": [
+            10,
+            10,
+            20,
+            20
+          ],
+          "duration": 1876,
+          "name": "full"
+        }
+      ],
+      "award": {
+        "bomb": 20,
+        "bucket": 20,
+        "stick": 15,
+        "coin": 400
+      }
+    },
+    {
+      "year": "2023",
+      "month": "10",
+      "activity": false,
+      "levels": [
+        {
+          "images": [
+            "2023_10_s1.png",
+            "2023_10_s2.png",
+            "2023_10_s3.png",
+            "2023_10_s4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 751,
+          "name": "simple"
+        },
+        {
+          "images": [
+            "2023_10_jigsaw.png"
+          ],
+          "lock": [
+            0,
+            "ad",
+            "ad",
+            "ad"
+          ],
+          "duration": 2348,
+          "name": "jigsaw"
+        },
+        {
+          "images": [
+            "2023_10_m1.png",
+            "2023_10_m2.png",
+            "2023_10_m3.png",
+            "2023_10_m4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1638,
+          "name": "mystery"
+        },
+        {
+          "images": [
+            "2023_10_f1.png",
+            "2023_10_f2.png",
+            "2023_10_f3.png",
+            "2023_10_f4.png"
+          ],
+          "lock": [
+            10,
+            10,
+            20,
+            20
+          ],
+          "duration": 2581,
+          "name": "full"
+        }
+      ],
+      "award": {
+        "bomb": 20,
+        "bucket": 20,
+        "stick": 15,
+        "coin": 400
+      }
+    },
+    {
+      "year": "2023",
+      "month": "09",
+      "activity": false,
+      "levels": [
+        {
+          "images": [
+            "2023_09_s1.png",
+            "2023_09_s2.png",
+            "2023_09_s3.png",
+            "2023_09_s4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1123,
+          "name": "simple"
+        },
+        {
+          "images": [
+            "2023_09_jigsaw.png"
+          ],
+          "lock": [
+            0,
+            "ad",
+            "ad",
+            "ad"
+          ],
+          "duration": 3645,
+          "name": "jigsaw"
+        },
+        {
+          "images": [
+            "2023_09_m1.png",
+            "2023_09_m2.png",
+            "2023_09_m3.png",
+            "2023_09_m4.png"
+          ],
+          "lock": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 2470,
+          "name:": "mystery"
+        },
+        {
+          "images": [
+            "2023_09_f1.png",
+            "2023_09_f2.png",
+            "2023_09_f3.png",
+            "2023_09_f4.png"
+          ],
+          "lock": [
+            10,
+            10,
+            20,
+            20
+          ],
+          "duration": 4500,
+          "name": "full"
+        }
+      ],
+      "award": {
+        "bomb": 20,
+        "bucket": 20,
+        "stick": 15,
+        "coin": 400
+      }
+    }
+  ]
+}
