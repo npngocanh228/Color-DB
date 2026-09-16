@@ -1,125 +1,316 @@
 {
   "version": 2,
+  "total_categories": 31,
   "categories": [
     {
+      "id": "animals",
       "folder": "animals",
       "name": "Động Vật",
-      "name_en": "Animals"
+      "name_en": "Animals",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_Animals_01.png",
+      "total_items": 1625,
+      "total_pages": 55,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/animals/page_1.json"
     },
     {
-      "folder": "cute",
-      "name": "Đáng Yêu",
-      "name_en": "Cute"
-    },
-    {
-      "folder": "cozy",
-      "name": "Cozy Lofi",
-      "name_en": "Cozy Lofi"
-    },
-    {
-      "folder": "food",
-      "name": "Ẩm Thực",
-      "name_en": "Food"
-    },
-    {
-      "folder": "flowers",
-      "name": "Hoa Cỏ",
-      "name_en": "Flowers"
-    },
-    {
-      "folder": "scenery",
-      "name": "Phong Cảnh",
-      "name_en": "Scenery"
-    },
-    {
+      "id": "anime",
       "folder": "anime",
       "name": "Anime",
-      "name_en": "Anime"
+      "name_en": "Anime",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_anime_art_shadow_swordsman.png",
+      "total_items": 50,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/anime/page_1.json"
     },
     {
-      "folder": "vip",
-      "name": "Bộ Sưu Tập VIP",
-      "name_en": "VIP Collection"
+      "id": "banner_v2",
+      "folder": "banner_v2",
+      "name": "Nổi Bật",
+      "name_en": "Featured Banners",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/banner_v2/default.png",
+      "total_items": 2,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/banner_v2/page_1.json"
     },
     {
-      "folder": "dailynew",
-      "name": "Mỗi Ngày",
-      "name_en": "Daily Art"
-    },
-    {
-      "folder": "cartoon",
-      "name": "Hoạt Hình",
-      "name_en": "Cartoon"
-    },
-    {
-      "folder": "love",
-      "name": "Tình Yêu",
-      "name_en": "Love & Hearts"
-    },
-    {
-      "folder": "game",
-      "name": "Trò Chơi Retro",
-      "name_en": "Retro Gaming"
-    },
-    {
-      "folder": "fashion",
-      "name": "Thời Trang",
-      "name_en": "Fashion"
-    },
-    {
-      "folder": "dog",
-      "name": "Cún Cưng",
-      "name_en": "Cute Dogs"
-    },
-    {
+      "id": "birthday",
       "folder": "birthday",
       "name": "Sinh Nhật",
-      "name_en": "Birthday Party"
+      "name_en": "Birthday Party",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/birthday/11.png",
+      "total_items": 78,
+      "total_pages": 3,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/birthday/page_1.json"
     },
     {
-      "folder": "music",
-      "name": "Âm Nhạc",
-      "name_en": "Music & Beats"
+      "id": "bonus",
+      "folder": "bonus",
+      "name": "Phần Thưởng",
+      "name_en": "Bonus Art",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/bonus/bonus_02.png",
+      "total_items": 26,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/bonus/page_1.json"
     },
     {
-      "folder": "sports",
-      "name": "Thể Thao",
-      "name_en": "Sports & Energy"
+      "id": "bonus_cn",
+      "folder": "bonus_cn",
+      "name": "Phong Cách Cổ Trang",
+      "name_en": "Ancient Style",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/bonus_cn/bonus_1000000.png",
+      "total_items": 2,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/bonus_cn/page_1.json"
     },
     {
-      "folder": "vehicle",
-      "name": "Phương Tiện",
-      "name_en": "Vehicles & Cars"
+      "id": "cartoon",
+      "folder": "cartoon",
+      "name": "Hoạt Hình",
+      "name_en": "Cartoon",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/15.png",
+      "total_items": 76,
+      "total_pages": 3,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/cartoon/page_1.json"
     },
     {
-      "folder": "painting",
-      "name": "Hội Họa",
-      "name_en": "Fine Art"
-    },
-    {
-      "folder": "portrait",
-      "name": "Chân Dung",
-      "name_en": "Portraits"
-    },
-    {
-      "folder": "simple",
-      "name": "Đơn Giản",
-      "name_en": "Simple & Easy"
-    },
-    {
-      "folder": "worldcup",
-      "name": "Bóng Đá",
-      "name_en": "World Cup"
-    },
-    {
-      "folder": "halloween",
-      "name": "Halloween",
-      "name_en": "Halloween"
-    },
-    {
+      "id": "christmas",
       "folder": "christmas",
       "name": "Giáng Sinh",
-      "name_en": "Christmas Holiday"
+      "name_en": "Christmas Holiday",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/christmas/06.png",
+      "total_items": 34,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/christmas/page_1.json"
+    },
+    {
+      "id": "cozy",
+      "folder": "cozy",
+      "name": "Cozy Lofi",
+      "name_en": "Cozy Lofi",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cozy/12.png",
+      "total_items": 50,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/cozy/page_1.json"
+    },
+    {
+      "id": "cute",
+      "folder": "cute",
+      "name": "Đáng Yêu",
+      "name_en": "Cute",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_iconE_13.png",
+      "total_items": 2052,
+      "total_pages": 69,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/cute/page_1.json"
+    },
+    {
+      "id": "dailynew",
+      "folder": "dailynew",
+      "name": "Mỗi Ngày",
+      "name_en": "Daily Art",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_dailynew_15.png",
+      "total_items": 90,
+      "total_pages": 3,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/dailynew/page_1.json"
+    },
+    {
+      "id": "dog",
+      "folder": "dog",
+      "name": "Cún Cưng",
+      "name_en": "Cute Dogs",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/05.png",
+      "total_items": 34,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/dog/page_1.json"
+    },
+    {
+      "id": "fashion",
+      "folder": "fashion",
+      "name": "Thời Trang",
+      "name_en": "Fashion",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_fashion_18.png",
+      "total_items": 72,
+      "total_pages": 3,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/fashion/page_1.json"
+    },
+    {
+      "id": "flowers",
+      "folder": "flowers",
+      "name": "Hoa Cỏ",
+      "name_en": "Flowers",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_flowers_art_tulip_bouquet.png",
+      "total_items": 64,
+      "total_pages": 3,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/flowers/page_1.json"
+    },
+    {
+      "id": "food",
+      "folder": "food",
+      "name": "Ẩm Thực",
+      "name_en": "Food",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_RandomFood_04.png",
+      "total_items": 1117,
+      "total_pages": 38,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/food/page_1.json"
+    },
+    {
+      "id": "game",
+      "folder": "game",
+      "name": "Trò Chơi Retro",
+      "name_en": "Retro Gaming",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_PatriotRobot.png",
+      "total_items": 398,
+      "total_pages": 14,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/game/page_1.json"
+    },
+    {
+      "id": "halloween",
+      "folder": "halloween",
+      "name": "Halloween",
+      "name_en": "Halloween",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_halloween_11.png",
+      "total_items": 36,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/halloween/page_1.json"
+    },
+    {
+      "id": "jigsaw",
+      "folder": "jigsaw",
+      "name": "Ghép Hình",
+      "name_en": "Jigsaw",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_jigsaw_9.png",
+      "total_items": 20,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/jigsaw/page_1.json"
+    },
+    {
+      "id": "love",
+      "folder": "love",
+      "name": "Tình Yêu",
+      "name_en": "Love & Hearts",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/07.png",
+      "total_items": 112,
+      "total_pages": 4,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/love/page_1.json"
+    },
+    {
+      "id": "music",
+      "folder": "music",
+      "name": "Âm Nhạc",
+      "name_en": "Music & Beats",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/music/25.png",
+      "total_items": 52,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/music/page_1.json"
+    },
+    {
+      "id": "mystery",
+      "folder": "mystery",
+      "name": "Bí Ẩn",
+      "name_en": "Mystery Art",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/mystery/01.png",
+      "total_items": 16,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/mystery/page_1.json"
+    },
+    {
+      "id": "painting",
+      "folder": "painting",
+      "name": "Hội Họa",
+      "name_en": "Fine Art",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_painting_51.png",
+      "total_items": 28,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/painting/page_1.json"
+    },
+    {
+      "id": "people",
+      "folder": "people",
+      "name": "Con Người",
+      "name_en": "People",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_portrait_1.png",
+      "total_items": 1433,
+      "total_pages": 48,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/people/page_1.json"
+    },
+    {
+      "id": "pintu",
+      "folder": "pintu",
+      "name": "Tranh Ghép",
+      "name_en": "Mosaic",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/pintu/02.png",
+      "total_items": 6,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/pintu/page_1.json"
+    },
+    {
+      "id": "portrait",
+      "folder": "portrait",
+      "name": "Chân Dung",
+      "name_en": "Portraits",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_portrait_02.png",
+      "total_items": 30,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/portrait/page_1.json"
+    },
+    {
+      "id": "scenery",
+      "folder": "scenery",
+      "name": "Phong Cảnh",
+      "name_en": "Scenery",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/scenery/86.png",
+      "total_items": 60,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/scenery/page_1.json"
+    },
+    {
+      "id": "simple",
+      "folder": "simple",
+      "name": "Đơn Giản",
+      "name_en": "Simple & Easy",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_simple_14.png",
+      "total_items": 40,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/simple/page_1.json"
+    },
+    {
+      "id": "sports",
+      "folder": "sports",
+      "name": "Thể Thao",
+      "name_en": "Sports & Energy",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/sports/60.png",
+      "total_items": 26,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/sports/page_1.json"
+    },
+    {
+      "id": "vehicle",
+      "folder": "vehicle",
+      "name": "Phương Tiện",
+      "name_en": "Vehicles & Cars",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_vehicle_16.png",
+      "total_items": 20,
+      "total_pages": 1,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/vehicle/page_1.json"
+    },
+    {
+      "id": "vip",
+      "folder": "vip",
+      "name": "Bộ Sưu Tập VIP",
+      "name_en": "VIP Collection",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/artworks/vip/5.png",
+      "total_items": 50,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/vip/page_1.json"
+    },
+    {
+      "id": "worldcup",
+      "folder": "worldcup",
+      "name": "Bóng Đá",
+      "name_en": "World Cup",
+      "icon_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_worldcup_16.png",
+      "total_items": 32,
+      "total_pages": 2,
+      "first_page_url": "https://npngocanh228.github.io/Color-DB/public/api/categories/worldcup/page_1.json"
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "category": "banner_v2",
+  "category_name": "Nổi Bật",
+  "category_name_en": "Featured Banners",
+  "page": 1,
+  "limit": 30,
+  "total_items": 2,
+  "total_pages": 1,
+  "has_more": false,
+  "next_page": null,
+  "next_page_url": null,
+  "items": [
+    {
+      "id": "banner_v2_default",
+      "title": "Nổi Bật #996C",
+      "file_name": "default.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/banner_v2/default.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/banner_v2/default.png",
+      "category": "banner_v2",
+      "category_name": "Nổi Bật",
+      "category_name_en": "Featured Banners",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000
+    },
+    {
+      "id": "pa_banner_v2_default",
+      "title": "Nổi Bật #62FB",
+      "file_name": "pa_banner_v2_default.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_banner_v2_default.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_banner_v2_default.png",
+      "category": "banner_v2",
+      "category_name": "Nổi Bật",
+      "category_name_en": "Featured Banners",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000
+    }
+  ],
+  "images": [
+    {
+      "id": "banner_v2_default",
+      "title": "Nổi Bật #996C",
+      "file_name": "default.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/banner_v2/default.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/banner_v2/default.png",
+      "category": "banner_v2",
+      "category_name": "Nổi Bật",
+      "category_name_en": "Featured Banners",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000
+    },
+    {
+      "id": "pa_banner_v2_default",
+      "title": "Nổi Bật #62FB",
+      "file_name": "pa_banner_v2_default.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_banner_v2_default.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_banner_v2_default.png",
+      "category": "banner_v2",
+      "category_name": "Nổi Bật",
+      "category_name_en": "Featured Banners",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000
+    }
+  ]
+}
