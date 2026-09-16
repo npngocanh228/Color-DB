@@ -36,6 +36,10 @@ def transform_single_pixel(r, g, b, mode="hue", hue_shift=0.33, sat_mult=1.0, va
 
     if mode == "invert":
         return 255 - r, 255 - g, 255 - b
+    elif mode == "drastic":
+        # Xoay 180 độ đối nghịch màu hoàn toàn (Đỏ -> Xanh, Vàng -> Tím, Xanh lá -> Hồng)
+        h = (h + 0.5) % 1.0
+        s = min(1.0, s * 1.25 + 0.05)
     elif mode == "pastel":
         s = min(1.0, s * 0.55)
         l = min(0.92, max(0.2, l * 1.3))
@@ -109,19 +113,101 @@ def process_png(filepath, outpath, mode="hue", hue_shift=0.33, flip_h=False):
             elif ctype != b"IEND":
                 chunks.append((ctype, cdata, crc))
 
-        # Nếu là ảnh Indexed PLTE và không lật đối xứng, chỉ cần ghi lại PLTE mới
-        if has_plte and not flip_h:
-            out = bytearray(b"\x89PNG\r\n\x1a\n")
-            for ct, cd, cr in chunks:
-                out.extend(struct.pack(">I", len(cd)) + ct + cd + cr)
-            for idat in idat_parts:
-                out.extend(struct.pack(">I", len(idat)) + b"IDAT" + idat + struct.pack(">I", zlib.crc32(b"IDAT" + idat) & 0xffffffff))
-            out.extend(struct.pack(">I", 0) + b"IEND" + struct.pack(">I", zlib.crc32(b"IEND") & 0xffffffff))
-            with open(outpath, "wb") as f:
-                f.write(out)
-            return True
+        # 1. Trường hợp ảnh Indexed PLTE (color_type == 3):
+        if has_plte:
+            if not flip_h:
+                # Không lật: chỉ cần cập nhật PLTE đã biến đổi màu
+                out = bytearray(b"\x89PNG\r\n\x1a\n")
+                for ct, cd, cr in chunks:
+                    out.extend(struct.pack(">I", len(cd)) + ct + cd + cr)
+                for idat in idat_parts:
+                    out.extend(struct.pack(">I", len(idat)) + b"IDAT" + idat + struct.pack(">I", zlib.crc32(b"IDAT" + idat) & 0xffffffff))
+                out.extend(struct.pack(">I", 0) + b"IEND" + struct.pack(">I", zlib.crc32(b"IEND") & 0xffffffff))
+                with open(outpath, "wb") as f:
+                    f.write(out)
+                return True
+            else:
+                # Lật gương (Flip Horizontal): unfilter IDAT, đảo ngược pixel trong từng scanline
+                raw = zlib.decompress(b"".join(idat_parts))
+                new_raw = bytearray()
+                raw_pos = 0
 
-        # Nếu là Truecolor hoặc cần lật gương (Flip Horizontal):
+                if bit_depth == 8:
+                    stride = width
+                    prior = bytearray(stride)
+                    for _ in range(height):
+                        ftype = raw[raw_pos]
+                        raw_pos += 1
+                        line = raw[raw_pos:raw_pos+stride]
+                        raw_pos += stride
+                        curr = bytearray(stride)
+                        for i in range(stride):
+                            x = line[i]
+                            a = curr[i-1] if i >= 1 else 0
+                            b = prior[i]
+                            c = prior[i-1] if i >= 1 else 0
+                            if ftype == 0: v = x
+                            elif ftype == 1: v = (x + a) & 0xff
+                            elif ftype == 2: v = (x + b) & 0xff
+                            elif ftype == 3: v = (x + ((a + b) >> 1)) & 0xff
+                            elif ftype == 4: v = (x + paeth(a, b, c)) & 0xff
+                            else: v = x
+                            curr[i] = v
+                        prior = curr
+                        curr.reverse()
+                        new_raw.append(0)
+                        new_raw.extend(curr)
+                elif bit_depth == 4:
+                    stride = (width + 1) // 2
+                    prior = bytearray(stride)
+                    for _ in range(height):
+                        ftype = raw[raw_pos]
+                        raw_pos += 1
+                        line = raw[raw_pos:raw_pos+stride]
+                        raw_pos += stride
+                        curr = bytearray(stride)
+                        for i in range(stride):
+                            x = line[i]
+                            a = curr[i-1] if i >= 1 else 0
+                            b = prior[i]
+                            c = prior[i-1] if i >= 1 else 0
+                            if ftype == 0: v = x
+                            elif ftype == 1: v = (x + a) & 0xff
+                            elif ftype == 2: v = (x + b) & 0xff
+                            elif ftype == 3: v = (x + ((a + b) >> 1)) & 0xff
+                            elif ftype == 4: v = (x + paeth(a, b, c)) & 0xff
+                            else: v = x
+                            curr[i] = v
+                        prior = curr
+                        # Unpack 4-bit nibbles
+                        pix = []
+                        for b in curr:
+                            pix.append((b >> 4) & 0x0f)
+                            pix.append(b & 0x0f)
+                        pix = pix[:width]
+                        pix.reverse()
+                        # Pack back
+                        packed = bytearray()
+                        for i in range(0, len(pix), 2):
+                            p1 = pix[i]
+                            p2 = pix[i+1] if i+1 < len(pix) else 0
+                            packed.append((p1 << 4) | (p2 & 0x0f))
+                        new_raw.append(0)
+                        new_raw.extend(packed)
+                else:
+                    return False
+
+                comp = zlib.compress(bytes(new_raw), 6)
+                out = bytearray(b"\x89PNG\r\n\x1a\n")
+                for ct, cd, cr in chunks:
+                    out.extend(struct.pack(">I", len(cd)) + ct + cd + cr)
+                out.extend(struct.pack(">I", len(comp)) + b"IDAT" + comp + struct.pack(">I", zlib.crc32(b"IDAT" + comp) & 0xffffffff))
+                out.extend(struct.pack(">I", 0) + b"IEND" + struct.pack(">I", zlib.crc32(b"IEND") & 0xffffffff))
+                with open(outpath, "wb") as f:
+                    f.write(out)
+                return True
+
+        # 2. Trường hợp ảnh Truecolor RGBA/RGB (color_type == 2 hoặc 6):
         if color_type in (2, 6) and bit_depth == 8:
             bpp = 4 if color_type == 6 else 3
             stride = width * bpp
@@ -187,14 +273,16 @@ def process_png(filepath, outpath, mode="hue", hue_shift=0.33, flip_h=False):
             return True
 
         return False
-    except Exception:
+    except Exception as ex:
+        # print(f"Error processing {filepath}: {ex}")
         return False
+
 
 
 def main():
     parser = argparse.ArgumentParser(description="Tool đổi màu sắc, chống bản quyền cho kho tranh Pixel Art")
-    parser.add_argument("--mode", choices=["hue", "pastel", "neon", "warm", "cool", "invert", "random"], default="random",
-                        help="Phong cách đổi màu (mặc định: 'random' để mỗi tranh có một màu sắc ngẫu nhiên độc nhất)")
+    parser.add_argument("--mode", choices=["drastic", "hue", "pastel", "neon", "warm", "cool", "cyberpunk", "sunset", "forest", "ocean", "vintage", "invert", "random"], default="random",
+                        help="Phong cách đổi màu (drastic: thay đổi màu mạnh mẽ 180 độ, random: mỗi tranh một phong cách)")
     parser.add_argument("--hue", type=float, default=0.33, help="Góc lệch màu (từ 0.0 đến 1.0, mặc định 0.33 ~ 120 độ)")
     parser.add_argument("--flip", action="store_true", help="Lật đối xứng gương (Horizontal Flip) toàn bộ ảnh")
     parser.add_argument("--flip-random", action="store_true", help="Ngẫu nhiên lật gương 50/50 cho từng ảnh")
@@ -211,8 +299,8 @@ def main():
             print(f"[!] Không tìm thấy file: {args.preview}")
             sys.exit(1)
         out_preview = "preview_transformed.png"
-        h = random.random() if args.mode == "random" else args.hue
-        m = random.choice(["pastel", "neon", "warm", "cool", "hue"]) if args.mode == "random" else args.mode
+        h = random.uniform(0.05, 0.95) if args.mode == "random" else args.hue
+        m = random.choice(["drastic", "pastel", "neon", "warm", "cool", "cyberpunk", "sunset"]) if args.mode == "random" else args.mode
         ok = process_png(args.preview, out_preview, mode=m, hue_shift=h, flip_h=args.flip)
         if ok:
             print(f"[+] Đã tạo ảnh xem thử thành công: {os.path.abspath(out_preview)}")
@@ -251,7 +339,7 @@ def main():
     success = 0
     failed = 0
 
-    ALL_MODES = ["pastel", "neon", "warm", "cool", "cyberpunk", "sunset", "forest", "ocean", "vintage", "hue"]
+    ALL_MODES = ["drastic", "pastel", "neon", "warm", "cool", "cyberpunk", "sunset", "forest", "ocean", "vintage", "hue"]
 
     def worker(path):
         h = random.uniform(0.05, 0.95) if args.mode == "random" else args.hue
