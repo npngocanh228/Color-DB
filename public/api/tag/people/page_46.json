@@ -2,11 +2,11 @@
   "category": "people",
   "page": 46,
   "limit": 30,
-  "total_items": 1378,
-  "total_pages": 46,
-  "has_more": false,
-  "next_page": null,
-  "next_page_url": null,
+  "total_items": 1405,
+  "total_pages": 47,
+  "has_more": true,
+  "next_page": 47,
+  "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/tag/people/page_47.json",
   "images": [
     {
       "id": "people_09",
@@ -313,6 +313,28 @@
       "gif": false,
       "pixelCount": 0,
       "release_date": "2007-07-29 20:00:00",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "pa_people_1",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_people_1.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "pa_people_10",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_people_10.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
       "tags": [
         "people"
       ]

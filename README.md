@@ -114,3 +114,15 @@ git commit -m "Add Paginated Load More API and full image collection"
 git push
 ```
 *(Chờ 1-2 phút GitHub Pages build xong là bạn có thể test ngay các link API trên)*.
+
+---
+
+## 🎨 Dữ liệu từ PixelArtPaint (Origami Source)
+
+Đã tích hợp thêm dữ liệu từ dự án `PixelArtPaint`:
+
+* **Cấu trúc Artworks:** `https://npngocanh228.github.io/Color-DB/public/artworks/`
+  * `categories.json`: `https://npngocanh228.github.io/Color-DB/public/artworks/categories.json`
+  * Ảnh theo danh mục: `https://npngocanh228.github.io/Color-DB/public/artworks/{folder}/{filename}.png` (ví dụ: `animals/01.png`)
+* **Dữ liệu Town:** `https://npngocanh228.github.io/Color-DB/public/town/`
+* **Hiệu ứng Raw / Lottie:** `https://npngocanh228.github.io/Color-DB/public/raw/`

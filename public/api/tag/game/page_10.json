@@ -2,11 +2,11 @@
   "category": "game",
   "page": 10,
   "limit": 30,
-  "total_items": 292,
-  "total_pages": 10,
-  "has_more": false,
-  "next_page": null,
-  "next_page_url": null,
+  "total_items": 345,
+  "total_pages": 12,
+  "has_more": true,
+  "next_page": 11,
+  "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/tag/game/page_11.json",
   "images": [
     {
       "id": "monster07",
@@ -246,6 +246,94 @@
       "gif": false,
       "pixelCount": 0,
       "release_date": "1999-09-23 20:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_01.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_02.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_03",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_03.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_04",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_04.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_05.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_06",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_06.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_08",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_08.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "game"
+      ]
+    },
+    {
+      "id": "pa_game_09",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_game_09.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
       "tags": [
         "game"
       ]

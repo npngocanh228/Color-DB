@@ -2,11 +2,11 @@
   "category": "food",
   "page": 34,
   "limit": 30,
-  "total_items": 1017,
-  "total_pages": 34,
-  "has_more": false,
-  "next_page": null,
-  "next_page_url": null,
+  "total_items": 1067,
+  "total_pages": 36,
+  "has_more": true,
+  "next_page": 35,
+  "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/tag/food/page_35.json",
   "images": [
     {
       "id": "food13",
@@ -304,6 +304,39 @@
       "gif": false,
       "pixelCount": 0,
       "release_date": "1996-08-16 20:00:00",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "pa_food_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_food_01.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "pa_food_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_food_02.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "pa_food_03",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_food_03.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "release_date": "2026-09-16 00:00:00",
       "tags": [
         "food"
       ]
