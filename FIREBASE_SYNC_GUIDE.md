@@ -1,83 +1,61 @@
-# 📱 HƯỚNG DẪN TRIỂN KHAI FIREBASE CLOUD SYNC CHO FRONTEND (FE)
-> **Dành cho**: Android (Kotlin) / Flutter / React Native  
-> **Mục tiêu**: Lưu tiến trình tô màu (Coloring Progress), khôi phục data khi xóa app cài lại hoặc đổi máy, **100% Offline-First** và **hoàn toàn miễn phí (0đ trong Firebase Free Tier)**.
+# 📱 HƯỚNG DẪN TRIỂN KHAI LƯU TRANH ĐÃ HOÀN THÀNH (DONE 100%) QUA FIREBASE
+> **Dành cho**: Frontend (Android Kotlin / Flutter / React Native)  
+> **Nguyên tắc cốt lõi**:
+> - **Tranh chưa xong (0% - 99%)**: Lưu hoàn toàn ở **Local (máy người dùng)**. Không đẩy lên Cloud.
+> - **Tranh ĐÃ XONG (100% DONE)**: Đẩy lên **Firebase Firestore** để bảo vệ data (xóa app cài lại vẫn còn).
+> - **Chi phí Firebase**: **0 đồng (Hoàn toàn miễn phí)** vì 1 tranh chỉ ghi đúng 1 lần duy nhất trong đời tài khoản.
 
 ---
 
-## 🏗️ 1. Kiến Trúc Tổng Quan (Offline-First Architecture)
+## 🏗️ 1. Mô Hình Hoạt Động (Workflow)
 
 ```
-[Người dùng chạm tô màu]
-          │
-          ▼ (Cực mượt 60/120fps, không phụ thuộc mạng)
-┌──────────────────────────────────────────────┐
-│       1. LOCAL STORAGE (Máy người dùng)      │
-│  - Android: Room Database / SQLite           │
-│  - Flutter: Hive / Isar / SQLite             │
-│  👉 Lưu chi tiết từng pixel đã tô            │
-└──────────────────────────────────────────────┘
-          │
-          │ (Chỉ đồng bộ khi: Xong tranh 100% HOẶC Thoát Canvas)
-          ▼
-┌──────────────────────────────────────────────┐
-│       2. CLOUD FIRESTORE (Đồng bộ đám mây)   │
-│  👉 Chỉ lưu: %, trạng thái, thời gian        │
-│  👉 1 bức tranh chỉ tốn đúng 1 - 2 lượt Ghi  │
-│  👉 Gói Free gánh được 5.000 - 10.000 DAU    │
-└──────────────────────────────────────────────┘
+                       [Người dùng tô màu]
+                                │
+          ┌─────────────────────┴─────────────────────┐
+          ▼                                           ▼
+[Tranh Đang Tô (0% - 99%)]                  [Tranh ĐÃ XONG (100% DONE)]
+          │                                           │
+          ▼                                           ▼
+┌───────────────────────────┐               ┌───────────────────────────┐
+│     LƯU 100% TẠI LOCAL    │               │    ĐỒNG BỘ LÊN CLOUD      │
+│  - SharedPreferences /    │               │  - Firebase Firestore     │
+│    Room / SQLite / Hive   │               │  - Chỉ lưu ID tranh đã tô │
+│  👉 Tự do lưu %, pixel    │               │  👉 Xóa app cài lại       │
+│  👉 Mượt 60fps, ko mạng   │               │     KHÔNG BAO GIỜ MẤT     │
+└───────────────────────────┘               └───────────────────────────┘
 ```
 
 ---
 
-## 📐 2. Cấu Trúc Dữ Liệu (Firestore Schema)
+## 📐 2. Cấu Trúc Firestore (Siêu Tinh Gọn)
 
-Cơ sở dữ liệu Firestore được tổ chức theo cấu trúc sau:
+Mỗi người dùng có Document theo UID (Firebase Anonymous Auth hoặc Google Sign-in):
 
-### Collection: `users`
-Mỗi người dùng có một Document mang tên `userId` (UID từ Firebase Auth).
-
-#### Document: `users/{userId}`
-Lưu thông tin tổng quan của người chơi:
+### Collection: `users/{userId}`
+Lưu thông tin tóm tắt:
 ```json
 {
-  "displayName": "Pixel Painter #8492",
-  "avatar": "avatar_01",
-  "totalCompleted": 12,
-  "level": 3,
-  "stars": 45,
-  "createdAt": 1726912345000,
+  "totalCompleted": 15,
   "lastActive": 1726915600000
 }
 ```
 
-#### Sub-collection: `users/{userId}/artworks/{artworkId}`
-Mỗi bức tranh là 1 Document con, tên Document chính là `artworkId` (vd: `CBN_Dragon_30x30px`):
+### Sub-collection: `users/{userId}/completed_artworks/{artworkId}`
+Mỗi tranh hoàn thành lưu 1 document con với ID chính là mã bức tranh (vd: `CBN_Dragon_30x30px`):
 ```json
 {
   "artworkId": "CBN_Dragon_30x30px",
-  "percent": 100,
-  "status": "completed",
   "completedAt": 1726915600000,
-  "timeSpentSeconds": 145,
-  "updatedAt": 1726915600000,
-  "paintedPixelsCompressed": "" 
+  "timeSpentSeconds": 135
 }
 ```
 
-> **Ghi chú về `paintedPixelsCompressed`**:
-> - Nếu tranh **đã hoàn thành 100%**: Đặt chuỗi rỗng `""` (vì khi mở lại app chỉ cần render tranh hoàn chỉnh).
-> - Nếu tranh **đang tô dở dang**: Nén mảng các pixel đã tô thành chuỗi Base64 hoặc Bitmask ngắn để lưu, không lưu mảng thô hàng nghìn phần tử.
-
 ---
 
-## 🔐 3. Firebase Authentication: Đăng Nhập Ẩn Danh (Anonymous)
+## 🔒 3. Firebase Security Rules (Bảo mật cho Firestore)
 
-### Nguyên tắc UX:
-1. Khi user mới cài app: Tự động đăng nhập ẩn danh (`signInAnonymously()`). User không cần đăng ký hay gõ mật khẩu gì cả, có UID ngay lập tức.
-2. Trong màn hình Settings / Profile: Cung cấp nút **"Liên kết tài khoản Google / Apple"** (`linkWithCredential`) để nếu đổi sang máy mới thì đăng nhập là data tự kéo về.
-
-### Firebase Security Rules (Bảo mật chỉ cho chủ tài khoản đọc/ghi data của mình):
-Paste đoạn rule này vào **Firebase Console -> Firestore Database -> Rules**:
+Dán đoạn rule sau vào **Firebase Console -> Firestore Database -> Rules**:
 ```javascript
 rules_version = '2';
 service cloud.firestore {
@@ -85,7 +63,7 @@ service cloud.firestore {
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
       
-      match /artworks/{artworkId} {
+      match /completed_artworks/{artworkId} {
         allow read, write: if request.auth != null && request.auth.uid == userId;
       }
     }
@@ -95,90 +73,79 @@ service cloud.firestore {
 
 ---
 
-## 💻 4. Hướng Dẫn Code Mẫu: Kotlin (Android)
+## 💻 4. Code Mẫu Android: Kotlin
 
-### 4.1. Khởi tạo Auth ẩn danh khi mở App
+### 4.1. Khởi tạo Auth ẩn danh (Tự động có UID khi mở App)
 ```kotlin
 import com.google.firebase.auth.FirebaseAuth
 
-class AppAuthManager {
-    private val auth = FirebaseAuth.getInstance()
+object AuthManager {
+    val uid: String?
+        get() = FirebaseAuth.getInstance().currentUser?.uid
 
-    fun initAuth(onSuccess: (String) -> Unit) {
-        val currentUser = auth.currentUser
-        if (currentUser != null) {
-            onSuccess(currentUser.uid)
+    fun init(onReady: (String) -> Unit) {
+        val auth = FirebaseAuth.getInstance()
+        val user = auth.currentUser
+        if (user != null) {
+            onReady(user.uid)
         } else {
-            auth.signInAnonymously().addOnSuccessListener { result ->
-                result.user?.uid?.let { onSuccess(it) }
+            auth.signInAnonymously().addOnSuccessListener { res ->
+                res.user?.uid?.let(onReady)
             }
         }
     }
 }
 ```
 
-### 4.2. Repository đồng bộ tiến trình lên Firestore
+### 4.2. Quản lý lưu tranh DONE (Firestore Repository)
 ```kotlin
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.SetOptions
+import com.google.firebase.firestore.FieldValue
 
-class ColoringSyncRepository {
+class CompletedArtworksRepository {
     private val db = FirebaseFirestore.getInstance()
-    private val auth = FirebaseAuth.getInstance()
 
-    // 1. Đồng bộ khi hoàn thành bức tranh 100%
-    fun syncCompletedArtwork(artworkId: String, timeSpentSeconds: Long) {
-        val uid = auth.currentUser?.uid ?: return
+    // 1. GỌI KHI TRANH ĐẠT 100%: Lưu lên Firestore
+    fun markAsDone(artworkId: String, timeSpentSeconds: Long = 0) {
+        val uid = AuthManager.uid ?: return
+
         val docRef = db.collection("users").document(uid)
-            .collection("artworks").document(artworkId)
+            .collection("completed_artworks").document(artworkId)
 
         val data = mapOf(
             "artworkId" to artworkId,
-            "percent" to 100,
-            "status" to "completed",
             "completedAt" to System.currentTimeMillis(),
-            "timeSpentSeconds" to timeSpentSeconds,
-            "updatedAt" to System.currentTimeMillis()
+            "timeSpentSeconds" to timeSpentSeconds
         )
 
-        docRef.set(data, SetOptions.merge())
-
-        // Tăng tổng số tranh hoàn thành trong profile
-        db.collection("users").document(uid).update(
-            "totalCompleted", com.google.firebase.firestore.FieldValue.increment(1)
-        )
+        docRef.set(data).addOnSuccessListener {
+            // Tăng tổng số tranh hoàn thành
+            db.collection("users").document(uid).set(
+                mapOf(
+                    "totalCompleted" to FieldValue.increment(1),
+                    "lastActive" to System.currentTimeMillis()
+                ),
+                com.google.firebase.firestore.SetOptions.merge()
+            )
+        }
     }
 
-    // 2. Đồng bộ khi người dùng bấm Back thoát khỏi màn hình tô (tranh dở dang)
-    fun syncInProgressArtwork(artworkId: String, percent: Int, compressedPixels: String) {
-        val uid = auth.currentUser?.uid ?: return
-        val docRef = db.collection("users").document(uid)
-            .collection("artworks").document(artworkId)
+    // 2. GỌI KHI MỞ APP (Hoặc khi cài lại app): Tải danh sách các ID tranh đã tô xong
+    fun getCompletedArtworkIds(onSuccess: (Set<String>) -> Unit) {
+        val uid = AuthManager.uid ?: run {
+            onSuccess(emptySet())
+            return
+        }
 
-        val data = mapOf(
-            "artworkId" to artworkId,
-            "percent" to percent,
-            "status" to "in_progress",
-            "paintedPixelsCompressed" to compressedPixels,
-            "updatedAt" to System.currentTimeMillis()
-        )
-
-        docRef.set(data, SetOptions.merge())
-    }
-
-    // 3. Khôi phục toàn bộ tiến trình khi cài lại App
-    fun restoreAllProgress(onSuccess: (Map<String, Int>) -> Unit) {
-        val uid = auth.currentUser?.uid ?: return
-        db.collection("users").document(uid).collection("artworks")
+        db.collection("users").document(uid)
+            .collection("completed_artworks")
             .get()
             .addOnSuccessListener { snapshot ->
-                val progressMap = mutableMapOf<String, Int>()
-                for (doc in snapshot.documents) {
-                    val id = doc.getString("artworkId") ?: continue
-                    val percent = doc.getLong("percent")?.toInt() ?: 0
-                    progressMap[id] = percent
-                }
-                onSuccess(progressMap)
+                val completedIds = snapshot.documents.mapNotNull { it.getString("artworkId") }.toSet()
+                onSuccess(completedIds)
+            }
+            .addOnFailureListener {
+                onSuccess(emptySet())
             }
     }
 }
@@ -186,19 +153,19 @@ class ColoringSyncRepository {
 
 ---
 
-## 💙 5. Hướng Dẫn Code Mẫu: Flutter (Dart)
+## 💙 5. Code Mẫu Flutter (Dart)
 
 ### 5.1. Khởi tạo Auth
 ```dart
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
-  static final _auth = FirebaseAuth.instance;
+  static String? get currentUid => FirebaseAuth.instance.currentUser?.uid;
 
-  static Future<String> getOrInitUserId() async {
-    User? user = _auth.currentUser;
+  static Future<String> initAuth() async {
+    User? user = FirebaseAuth.instance.currentUser;
     if (user == null) {
-      UserCredential cred = await _auth.signInAnonymously();
+      final cred = await FirebaseAuth.instance.signInAnonymously();
       user = cred.user;
     }
     return user!.uid;
@@ -206,105 +173,88 @@ class AuthService {
 }
 ```
 
-### 5.2. Service lưu và khôi phục tiến trình
+### 5.2. Service lưu và lấy danh sách tranh DONE
 ```dart
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
-class ColoringProgressService {
+class CompletedArtworksService {
   static final _db = FirebaseFirestore.instance;
-  static final _auth = FirebaseAuth.instance;
 
-  static String? get _uid => _auth.currentUser?.uid;
+  // 1. GỌI KHI TRANH ĐẠT 100%
+  static Future<void> markAsDone(String artworkId, {int timeSpent = 0}) async {
+    final uid = AuthService.currentUid;
+    if (uid == null) return;
 
-  // 1. Khi tô xong 100%
-  static Future<void> syncCompleted(String artworkId, int timeSpent) async {
-    if (_uid == null) return;
+    final docRef = _db
+        .collection('users')
+        .doc(uid)
+        .collection('completed_artworks')
+        .doc(artworkId);
 
-    final doc = _db.collection('users').doc(_uid).collection('artworks').doc(artworkId);
-
-    await doc.set({
+    await docRef.set({
       'artworkId': artworkId,
-      'percent': 100,
-      'status': 'completed',
       'completedAt': DateTime.now().millisecondsSinceEpoch,
       'timeSpentSeconds': timeSpent,
-      'updatedAt': DateTime.now().millisecondsSinceEpoch,
-    }, SetOptions(merge: true));
+    });
 
-    // Tăng count profile
-    await _db.collection('users').doc(_uid).set({
+    // Cập nhật tổng số tranh hoàn thành
+    await _db.collection('users').doc(uid).set({
       'totalCompleted': FieldValue.increment(1),
       'lastActive': DateTime.now().millisecondsSinceEpoch,
     }, SetOptions(merge: true));
   }
 
-  // 2. Khi thoát màn hình Canvas (Tranh đang dở dang)
-  static Future<void> syncInProgress(String artworkId, int percent, String compressedPixels) async {
-    if (_uid == null) return;
+  // 2. GỌI KHI KHỞI ĐỘNG APP: Lấy danh sách ID các tranh đã tô xong
+  static Future<Set<String>> getCompletedArtworkIds() async {
+    final uid = AuthService.currentUid;
+    if (uid == null) return {};
 
-    final doc = _db.collection('users').doc(_uid).collection('artworks').doc(artworkId);
+    try {
+      final snapshot = await _db
+          .collection('users')
+          .doc(uid)
+          .collection('completed_artworks')
+          .get();
 
-    await doc.set({
-      'artworkId': artworkId,
-      'percent': percent,
-      'status': 'in_progress',
-      'paintedPixelsCompressed': compressedPixels,
-      'updatedAt': DateTime.now().millisecondsSinceEpoch,
-    }, SetOptions(merge: true));
-  }
-
-  // 3. Khôi phục toàn bộ tiến trình khi mở App lần đầu (Restore data)
-  static Future<Map<String, int>> fetchUserProgress() async {
-    if (_uid == null) return {};
-
-    final query = await _db.collection('users').doc(_uid).collection('artworks').get();
-    Map<String, int> resultMap = {};
-
-    for (var doc in query.docs) {
-      final data = doc.data();
-      final id = data['artworkId'] as String?;
-      final percent = data['percent'] as int? ?? 0;
-      if (id != null) {
-        resultMap[id] = percent;
-      }
+      return snapshot.docs
+          .map((doc) => doc.data()['artworkId'] as String?)
+          .whereType<String>()
+          .toSet();
+    } catch (e) {
+      return {};
     }
-    return resultMap;
   }
 }
 ```
 
 ---
 
-## ⚡ 6. Best Practices Cho FE Khi Hiển Thị Danh Sách Tranh
+## 🎨 6. Cách FE Ghép Vào Danh Sách Tranh (UI Integration)
 
-Khi FE fetch danh sách tranh từ API phân trang của server:
+Khi FE gọi API lấy danh mục tranh từ server:
 `https://npngocanh228.github.io/Color-DB/public/api/categories/animals/page_1.json`
 
 ```
-┌───────────────────────────────────┐
-│     API Server (Color-DB)         │ ───▶ Trả về danh sách 30 tranh mẫu
-└───────────────────────────────────┘
-                  │
-                  ▼ Kết hợp (Join)
-┌───────────────────────────────────┐
-│   Local Cache / Firestore Map     │ ───▶ { "CBN_Dragon_30x30px": 100, "plncute_11": 45 }
-└───────────────────────────────────┘
-                  │
-                  ▼
-┌────────────────────────────────────────────────────────┐
-│ UI ITEM HIỂN THỊ:                                      │
-│ - Nếu percent == 100: Hiện huy hiệu "Đã Hoàn Thành" ✅ │
-│ - Nếu 0 < percent < 100: Hiện thanh tiến độ (vd: 45%)   │
-│ - Nếu chưa có: Hiện nút "Tô Màu"                       │
-└────────────────────────────────────────────────────────┘
+1. Khi mở App:
+   👉 Tải Set các ID đã xong: Set<String> completedIds = ["KIO_fantasybagdad_3", "plncute_11", ...]
+
+2. Khi render từng item trong ListView / GridView:
+   👉 val isCompleted = completedIds.contains(item.id)
+
+3. Hiển thị UI:
+   - Nếu isCompleted == true:
+       + Đè ảnh tranh đã hoàn thiện lên
+       + Hiển thị icon huy hiệu "Đã Tô Xong" ✅ (hoặc nút "Xem lại")
+   - Nếu isCompleted == false:
+       + Kiểm tra Local xem có % đang tô dở không (ví dụ: SharedPreferences.getInt(item.id, 0))
+       + Nếu có % dở: Hiện thanh tiến độ (vd: 60%) + nút "Tô tiếp"
+       + Nếu 0%: Hiện nút "Bắt đầu tô"
 ```
 
 ---
 
-## 🎯 7. Checklist Kiểm Thử (Testing Checklist)
+## 💰 7. Tại Sao Cách Này Tối Ưu Chi Phí Tuyệt Đối?
 
-1. [ ] Mở app lần đầu không có mạng: Chơi và lưu được bình thường (Local DB).
-2. [ ] Bật mạng lên và hoàn thành tranh: Firestore có Document mới tại `users/{uid}/artworks/{id}`.
-3. [ ] Xóa app cài lại trên cùng máy: Mở app lên toàn bộ các tranh đã tô trước đó vẫn giữ nguyên trạng thái hoàn thành.
-4. [ ] Kiểm tra số lượt Write trên Firebase Console: Tô 1 bức tranh 5.000 pixel chỉ tăng **1 lượt Write** (không tăng 5.000 lượt).
+1. **Ghi (Write)**: Mỗi bức tranh chỉ tốn đúng **1 lượt Write DUY NHẤT** khi người dùng hoàn thành 100%. Nếu người chơi tô 5 bức tranh mỗi ngày = **5 lượt Write/ngày** (Gói Free của Firebase cho phép 20.000 Write/ngày $\rightarrow$ gánh được 4.000 người chơi mỗi ngày hoàn toàn 0đ).
+2. **Đọc (Read)**: Khi mở app chỉ đọc 1 lần toàn bộ danh sách `completed_artworks` (hoặc dùng Offline Persistence của Firebase SDK thì lần sau đọc từ cache máy không tốn lượt Read).
+3. **Dữ liệu**: Tranh chưa xong người dùng đổi ý xóa app thì không cần khôi phục, chỉ khôi phục các tác phẩm nghệ thuật họ đã bỏ công sức hoàn thành 100%!
