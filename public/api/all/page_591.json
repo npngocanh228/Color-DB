@@ -2,66 +2,101 @@
   "category": "all",
   "page": 591,
   "limit": 30,
-  "total_items": 21142,
+  "total_items": 21141,
   "total_pages": 705,
   "has_more": true,
   "next_page": 592,
   "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/all/page_592.json",
   "items": [
     {
-      "id": "origami_animals_04",
-      "title": "Artwork #2FFC",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/origami_animals_04.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/origami_animals_04.png",
-      "free": true,
-      "gif": false,
-      "pixelCount": 10000,
-      "tags": [
-        "Basic",
-        "Animals"
-      ]
-    },
-    {
-      "id": "MAR_ChineseNewYear_2021_07",
-      "title": "Artwork #0755",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_ChineseNewYear_2021_07.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_ChineseNewYear_2021_07.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "KIO_2022_GoldenWeekCn_02",
-      "title": "Artwork #0467",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_GoldenWeekCn_02.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_GoldenWeekCn_02.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "KIO_clothingicon_3",
-      "title": "Artwork #34EC",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_clothingicon_3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_clothingicon_3.png",
+      "id": "MAR_FlowerGirl_01",
+      "title": "Artwork #E19A",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FlowerGirl_01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FlowerGirl_01.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "object"
+        "people"
       ]
     },
     {
-      "id": "KIO_static_rainbow_objects_1",
-      "title": "Artwork #3063",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_static_rainbow_objects_1.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_static_rainbow_objects_1.png",
+      "id": "MAR_2021_pinups_07",
+      "title": "Artwork #8361",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_pinups_07.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_pinups_07.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "TBS_stc_animals_617",
+      "title": "Artwork #962F",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animals_617.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animals_617.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "BRU_emoji_35",
+      "title": "Artwork #E548",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_emoji_35.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_emoji_35.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "MAC_2022_DogDay_08",
+      "title": "Artwork #045B",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_DogDay_08.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_DogDay_08.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "surprise"
+      ]
+    },
+    {
+      "id": "HSV_games142",
+      "title": "Artwork #70DE",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games142.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games142.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "fantasy"
+      ]
+    },
+    {
+      "id": "CBN_ActionGirl_80x80px",
+      "title": "Artwork #B224",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ActionGirl_80x80px.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ActionGirl_80x80px.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "MTH_food_153",
+      "title": "Artwork #7930",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_153.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_153.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
@@ -70,22 +105,58 @@
       ]
     },
     {
-      "id": "BRU_animals_1521",
-      "title": "Artwork #3FED",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1521.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1521.png",
+      "id": "KIO_colors_materials_1",
+      "title": "Artwork #93BD",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_colors_materials_1.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_colors_materials_1.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "MAR_JapanHouse",
+      "title": "Artwork #C05D",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_JapanHouse.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_JapanHouse.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "cute"
+        "object"
       ]
     },
     {
-      "id": "IA_September_Holiday_Fall_2026_2",
-      "title": "Artwork #4568",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_2.png",
+      "id": "KIO_2023_FashionDressup_Q1_03",
+      "title": "Artwork #31B2",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FashionDressup_Q1_03.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FashionDressup_Q1_03.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "CBN_ai_2024_DailyImage_2024-05-05",
+      "title": "Artwork #6A22",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-05.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailyImage"
+      ]
+    },
+    {
+      "id": "IA_September_Holiday_Fall_2026_3",
+      "title": "Artwork #087F",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_3.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_3.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
@@ -94,10 +165,70 @@
       ]
     },
     {
-      "id": "KIO_2023_FathersDay23_03",
-      "title": "Artwork #3837",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FathersDay23_03.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FathersDay23_03.png",
+      "id": "MAC_2024_AngelCats_06",
+      "title": "Artwork #E84B",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_AngelCats_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_AngelCats_06.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cute"
+      ]
+    },
+    {
+      "id": "KIO_2025_FruitBalloons_01",
+      "title": "Artwork #1081",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_FruitBalloons_01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_FruitBalloons_01.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cute"
+      ]
+    },
+    {
+      "id": "HSV_plants21",
+      "title": "Artwork #4000",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_plants21.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_plants21.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "MAC_2024_DailyImage_2024-12-24",
+      "title": "Artwork #1090",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_DailyImage_2024-12-24.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_DailyImage_2024-12-24.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailyImage"
+      ]
+    },
+    {
+      "id": "CBN_ai_2023_people_05",
+      "title": "Artwork #710D",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2023_people_05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2023_people_05.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "treasure"
+      ]
+    },
+    {
+      "id": "MAC_2024_FathersDay24_03",
+      "title": "Artwork #4B8F",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FathersDay24_03.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FathersDay24_03.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
@@ -107,131 +238,23 @@
       ]
     },
     {
-      "id": "BRU_animals_241",
-      "title": "Artwork #6549",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_241.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_241.png",
+      "id": "MAC_2021_easter_06",
+      "title": "Artwork #6DFC",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_easter_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_easter_06.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "surprise"
+        "holiday",
+        "dynamic_holiday"
       ]
     },
     {
-      "id": "HSV_animal192",
-      "title": "Artwork #39D8",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal192.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal192.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "HSV_food10",
-      "title": "Artwork #F2F8",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_food10.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_food10.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "id": "MTH_monsters_25",
-      "title": "Artwork #C612",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_monsters_25.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_monsters_25.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "monsters"
-      ]
-    },
-    {
-      "id": "MAC_2023_Vehicles_03",
-      "title": "Artwork #ED47",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Vehicles_03.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Vehicles_03.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "TBS_stc_object_416",
-      "title": "Artwork #AD6C",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_object_416.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_object_416.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "game"
-      ]
-    },
-    {
-      "id": "KIO_2024_SurpriseImage_2024-12-23",
-      "title": "Artwork #E969",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_SurpriseImage_2024-12-23.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_SurpriseImage_2024-12-23.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "people",
-        "surprise"
-      ]
-    },
-    {
-      "id": "LIQUID_01",
-      "title": "Artwork #3521",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/LIQUID_01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/LIQUID_01.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "id": "KIO_2023_Mice_05",
-      "title": "Artwork #1A77",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Mice_05.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Mice_05.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_mask_new_1",
-      "title": "Artwork #C40D",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mask_new_1.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mask_new_1.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "HSV_laborday01",
-      "title": "Artwork #56EB",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_laborday01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_laborday01.png",
+      "id": "KIO_2022_Oktoberfest_01",
+      "title": "Artwork #8A20",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_Oktoberfest_01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_Oktoberfest_01.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
@@ -240,10 +263,47 @@
       ]
     },
     {
-      "id": "KIO_2022_festa_junina_4",
-      "title": "Artwork #B897",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_festa_junina_4.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_festa_junina_4.png",
+      "id": "animmal02",
+      "title": "Artwork #1B5D",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/animmal02.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/animmal02.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2022_FathersDay_06",
+      "title": "Artwork #53CE",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_FathersDay_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_FathersDay_06.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "holiday",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "MAC_2024_FruitsBear_08",
+      "title": "Artwork #5235",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FruitsBear_08.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FruitsBear_08.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cute"
+      ]
+    },
+    {
+      "id": "MAC_2021_geekday_09",
+      "title": "Artwork #BB16",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_geekday_09.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_geekday_09.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
@@ -252,181 +312,156 @@
       ]
     },
     {
-      "id": "BRU_fantasy_457",
-      "title": "Artwork #8C57",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_fantasy_457.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_fantasy_457.png",
+      "id": "HSV_animal106",
+      "title": "Artwork #D7DD",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal106.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal106.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "fantasy"
+        "animal"
       ]
     },
     {
-      "id": "HSV_monster05",
-      "title": "Artwork #36C4",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_monster05.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_monster05.png",
-      "free": "false",
+      "id": "origami_cozy_17",
+      "title": "Artwork #3C8B",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/origami_cozy_17.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/origami_cozy_17.png",
+      "free": true,
       "gif": false,
-      "pixelCount": 1000,
+      "pixelCount": 1024,
       "tags": [
-        "monsters"
+        "Basic"
       ]
     },
     {
-      "id": "radio08",
-      "title": "Artwork #2FB8",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/radio08.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/radio08.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "IA_Holiday_Random_2026_June_Pride_8",
-      "title": "Artwork #4A4A",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_Holiday_Random_2026_June_Pride_8.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_Holiday_Random_2026_June_Pride_8.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "CBN_ai_2024_DailyImage_2024-05-06",
-      "title": "Artwork #B365",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-06.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-06.png",
+      "id": "TBS_stc_animal_254",
+      "title": "Artwork #D9CE",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_254.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_254.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "dailyImage"
+        "animal"
       ]
     },
     {
-      "id": "KIO_maps_5",
-      "title": "Artwork #BDD7",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_maps_5.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_maps_5.png",
+      "id": "KIO_foodie_2",
+      "title": "Artwork #F161",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_foodie_2.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_foodie_2.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "people"
+        "food"
       ]
     },
     {
-      "id": "HSV_games57",
-      "title": "Artwork #9A51",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games57.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games57.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "game"
-      ]
-    },
-    {
-      "id": "IA_July_Dailyimages_2026_2",
-      "title": "Artwork #C066",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_July_Dailyimages_2026_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_July_Dailyimages_2026_2.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "dailyImage"
-      ]
-    },
-    {
-      "id": "KIO_nature_trees_1",
-      "title": "Artwork #4759",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_nature_trees_1.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_nature_trees_1.png",
+      "id": "KIO_2025_HorseGirls_06",
+      "title": "Artwork #7311",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_HorseGirls_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_HorseGirls_06.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "nature"
-      ]
-    },
-    {
-      "id": "MAR_Shaman",
-      "title": "Artwork #297D",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Shaman.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Shaman.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "fantasy"
+        "cute"
       ]
     }
   ],
   "images": [
     {
-      "id": "origami_animals_04",
-      "title": "Artwork #2FFC",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/origami_animals_04.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/origami_animals_04.png",
-      "free": true,
-      "gif": false,
-      "pixelCount": 10000,
-      "tags": [
-        "Basic",
-        "Animals"
-      ]
-    },
-    {
-      "id": "MAR_ChineseNewYear_2021_07",
-      "title": "Artwork #0755",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_ChineseNewYear_2021_07.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_ChineseNewYear_2021_07.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "KIO_2022_GoldenWeekCn_02",
-      "title": "Artwork #0467",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_GoldenWeekCn_02.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_GoldenWeekCn_02.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "KIO_clothingicon_3",
-      "title": "Artwork #34EC",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_clothingicon_3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_clothingicon_3.png",
+      "id": "MAR_FlowerGirl_01",
+      "title": "Artwork #E19A",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FlowerGirl_01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FlowerGirl_01.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "object"
+        "people"
       ]
     },
     {
-      "id": "KIO_static_rainbow_objects_1",
-      "title": "Artwork #3063",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_static_rainbow_objects_1.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_static_rainbow_objects_1.png",
+      "id": "MAR_2021_pinups_07",
+      "title": "Artwork #8361",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_pinups_07.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_pinups_07.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "TBS_stc_animals_617",
+      "title": "Artwork #962F",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animals_617.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animals_617.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "BRU_emoji_35",
+      "title": "Artwork #E548",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_emoji_35.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_emoji_35.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "MAC_2022_DogDay_08",
+      "title": "Artwork #045B",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_DogDay_08.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_DogDay_08.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "surprise"
+      ]
+    },
+    {
+      "id": "HSV_games142",
+      "title": "Artwork #70DE",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games142.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games142.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "fantasy"
+      ]
+    },
+    {
+      "id": "CBN_ActionGirl_80x80px",
+      "title": "Artwork #B224",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ActionGirl_80x80px.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ActionGirl_80x80px.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "MTH_food_153",
+      "title": "Artwork #7930",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_153.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_153.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
@@ -435,22 +470,58 @@
       ]
     },
     {
-      "id": "BRU_animals_1521",
-      "title": "Artwork #3FED",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1521.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1521.png",
+      "id": "KIO_colors_materials_1",
+      "title": "Artwork #93BD",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_colors_materials_1.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_colors_materials_1.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "MAR_JapanHouse",
+      "title": "Artwork #C05D",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_JapanHouse.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_JapanHouse.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "cute"
+        "object"
       ]
     },
     {
-      "id": "IA_September_Holiday_Fall_2026_2",
-      "title": "Artwork #4568",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_2.png",
+      "id": "KIO_2023_FashionDressup_Q1_03",
+      "title": "Artwork #31B2",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FashionDressup_Q1_03.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FashionDressup_Q1_03.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "object"
+      ]
+    },
+    {
+      "id": "CBN_ai_2024_DailyImage_2024-05-05",
+      "title": "Artwork #6A22",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-05.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailyImage"
+      ]
+    },
+    {
+      "id": "IA_September_Holiday_Fall_2026_3",
+      "title": "Artwork #087F",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_3.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_September_Holiday_Fall_2026_3.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
@@ -459,10 +530,70 @@
       ]
     },
     {
-      "id": "KIO_2023_FathersDay23_03",
-      "title": "Artwork #3837",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FathersDay23_03.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_FathersDay23_03.png",
+      "id": "MAC_2024_AngelCats_06",
+      "title": "Artwork #E84B",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_AngelCats_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_AngelCats_06.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cute"
+      ]
+    },
+    {
+      "id": "KIO_2025_FruitBalloons_01",
+      "title": "Artwork #1081",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_FruitBalloons_01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_FruitBalloons_01.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cute"
+      ]
+    },
+    {
+      "id": "HSV_plants21",
+      "title": "Artwork #4000",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_plants21.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_plants21.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "MAC_2024_DailyImage_2024-12-24",
+      "title": "Artwork #1090",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_DailyImage_2024-12-24.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_DailyImage_2024-12-24.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailyImage"
+      ]
+    },
+    {
+      "id": "CBN_ai_2023_people_05",
+      "title": "Artwork #710D",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2023_people_05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2023_people_05.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "treasure"
+      ]
+    },
+    {
+      "id": "MAC_2024_FathersDay24_03",
+      "title": "Artwork #4B8F",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FathersDay24_03.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FathersDay24_03.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
@@ -472,131 +603,23 @@
       ]
     },
     {
-      "id": "BRU_animals_241",
-      "title": "Artwork #6549",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_241.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_241.png",
+      "id": "MAC_2021_easter_06",
+      "title": "Artwork #6DFC",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_easter_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_easter_06.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "surprise"
+        "holiday",
+        "dynamic_holiday"
       ]
     },
     {
-      "id": "HSV_animal192",
-      "title": "Artwork #39D8",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal192.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal192.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "HSV_food10",
-      "title": "Artwork #F2F8",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_food10.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_food10.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "id": "MTH_monsters_25",
-      "title": "Artwork #C612",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_monsters_25.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_monsters_25.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "monsters"
-      ]
-    },
-    {
-      "id": "MAC_2023_Vehicles_03",
-      "title": "Artwork #ED47",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Vehicles_03.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Vehicles_03.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "TBS_stc_object_416",
-      "title": "Artwork #AD6C",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_object_416.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_object_416.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "game"
-      ]
-    },
-    {
-      "id": "KIO_2024_SurpriseImage_2024-12-23",
-      "title": "Artwork #E969",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_SurpriseImage_2024-12-23.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_SurpriseImage_2024-12-23.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "people",
-        "surprise"
-      ]
-    },
-    {
-      "id": "LIQUID_01",
-      "title": "Artwork #3521",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/LIQUID_01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/LIQUID_01.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "id": "KIO_2023_Mice_05",
-      "title": "Artwork #1A77",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Mice_05.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Mice_05.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_mask_new_1",
-      "title": "Artwork #C40D",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mask_new_1.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mask_new_1.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "HSV_laborday01",
-      "title": "Artwork #56EB",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_laborday01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_laborday01.png",
+      "id": "KIO_2022_Oktoberfest_01",
+      "title": "Artwork #8A20",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_Oktoberfest_01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_Oktoberfest_01.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
@@ -605,10 +628,47 @@
       ]
     },
     {
-      "id": "KIO_2022_festa_junina_4",
-      "title": "Artwork #B897",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_festa_junina_4.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_festa_junina_4.png",
+      "id": "animmal02",
+      "title": "Artwork #1B5D",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/animmal02.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/animmal02.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2022_FathersDay_06",
+      "title": "Artwork #53CE",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_FathersDay_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_FathersDay_06.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "holiday",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "MAC_2024_FruitsBear_08",
+      "title": "Artwork #5235",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FruitsBear_08.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_FruitsBear_08.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cute"
+      ]
+    },
+    {
+      "id": "MAC_2021_geekday_09",
+      "title": "Artwork #BB16",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_geekday_09.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2021_geekday_09.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
@@ -617,123 +677,63 @@
       ]
     },
     {
-      "id": "BRU_fantasy_457",
-      "title": "Artwork #8C57",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_fantasy_457.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_fantasy_457.png",
+      "id": "HSV_animal106",
+      "title": "Artwork #D7DD",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal106.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal106.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "fantasy"
+        "animal"
       ]
     },
     {
-      "id": "HSV_monster05",
-      "title": "Artwork #36C4",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_monster05.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_monster05.png",
-      "free": "false",
+      "id": "origami_cozy_17",
+      "title": "Artwork #3C8B",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/origami_cozy_17.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/origami_cozy_17.png",
+      "free": true,
       "gif": false,
-      "pixelCount": 1000,
+      "pixelCount": 1024,
       "tags": [
-        "monsters"
+        "Basic"
       ]
     },
     {
-      "id": "radio08",
-      "title": "Artwork #2FB8",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/radio08.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/radio08.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "IA_Holiday_Random_2026_June_Pride_8",
-      "title": "Artwork #4A4A",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_Holiday_Random_2026_June_Pride_8.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_Holiday_Random_2026_June_Pride_8.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "CBN_ai_2024_DailyImage_2024-05-06",
-      "title": "Artwork #B365",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-06.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-06.png",
+      "id": "TBS_stc_animal_254",
+      "title": "Artwork #D9CE",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_254.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_254.png",
       "free": "true",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "dailyImage"
+        "animal"
       ]
     },
     {
-      "id": "KIO_maps_5",
-      "title": "Artwork #BDD7",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_maps_5.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_maps_5.png",
+      "id": "KIO_foodie_2",
+      "title": "Artwork #F161",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_foodie_2.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_foodie_2.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "people"
+        "food"
       ]
     },
     {
-      "id": "HSV_games57",
-      "title": "Artwork #9A51",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games57.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_games57.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "game"
-      ]
-    },
-    {
-      "id": "IA_July_Dailyimages_2026_2",
-      "title": "Artwork #C066",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/IA_July_Dailyimages_2026_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/IA_July_Dailyimages_2026_2.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "dailyImage"
-      ]
-    },
-    {
-      "id": "KIO_nature_trees_1",
-      "title": "Artwork #4759",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_nature_trees_1.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_nature_trees_1.png",
+      "id": "KIO_2025_HorseGirls_06",
+      "title": "Artwork #7311",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_HorseGirls_06.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_HorseGirls_06.png",
       "free": "false",
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "nature"
-      ]
-    },
-    {
-      "id": "MAR_Shaman",
-      "title": "Artwork #297D",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Shaman.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Shaman.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "fantasy"
+        "cute"
       ]
     }
   ]

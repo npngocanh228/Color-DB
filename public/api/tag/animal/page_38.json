@@ -2,63 +2,228 @@
   "category": "animal",
   "page": 38,
   "limit": 30,
-  "total_items": 1494,
+  "total_items": 1493,
   "total_pages": 50,
   "has_more": true,
   "next_page": 39,
   "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/tag/animal/page_39.json",
   "images": [
     {
-      "id": "MAR_Cats_06",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Cats_06.png",
+      "id": "animmal05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/animmal05.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-07-12 20:00:00",
+      "release_date": "1989-02-07 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_Cats_07",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Cats_07.png",
+      "id": "KIO_2023_Rabbits_04",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Rabbits_04.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1990-01-18 20:00:00",
+      "release_date": "2023-04-19 00:00:03",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_Cats_08",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Cats_08.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1990-01-01 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Cats_09",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Cats_09.png",
+      "id": "BRU_animals_1017",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1017.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1988-01-09 20:00:00",
+      "release_date": "1987-03-04 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_Coala",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Coala.png",
+      "id": "HSV_animal411",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal411.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-05-13 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAR_Icons_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Icons_01.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1988-10-03 20:00:00",
+      "release_date": "2020-12-03 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MTH_animals_92",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_animals_92.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-01-27 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "BRU_animals_815",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_815.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1987-05-25 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "BRU_animals_771",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_771.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2020-10-14 0:00:01",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "TBS_stc_animal_414",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_414.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-12-11 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "shark",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/shark.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1987-02-25 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "HSV_animal80",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal80.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-10-13 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAR_Animals_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Animals_02.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2020-11-24 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2021_tiger_1",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2021_tiger_1.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2021-03-26 00:00:01",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2023_HipHopTurtles_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_HipHopTurtles_02.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2023-09-08 00:00:01",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2025_CuteDucks_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_CuteDucks_01.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2026-08-01 00:00:02",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2022_CuteDino_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_CuteDino_01.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-12-06 00:00:01",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2023_Capybara_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Capybara_01.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2024-04-26 00:00:03",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2021_sea_animals_5",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2021_sea_animals_5.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-01-20 00:00:04",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "HSV_animal32",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal32.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-06-04 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2023_Butterflies_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Butterflies_01.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2024-04-19 00:00:04",
       "tags": [
         "animal"
       ]
@@ -75,265 +240,102 @@
       ]
     },
     {
-      "id": "MAR_Crab1",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Crab1.png",
+      "id": "MAC_2023_AllRed_06",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_AllRed_06.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1988-07-10 20:00:00",
+      "release_date": "2024-03-03 00:00:04",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_Crab2",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Crab2.png",
+      "id": "BRU_animals_703",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_703.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-01-23 20:00:00",
+      "release_date": "1989-11-10 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_CrocoBaby",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CrocoBaby.png",
+      "id": "HSV_animal34",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal34.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-08-07 20:00:00",
+      "release_date": "1989-05-23 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_Crocodile",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Crocodile.png",
+      "id": "MAR_AnimalB_05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_AnimalB_05.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1990-01-07 20:00:00",
+      "release_date": "2021-10-05 00:00:02",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_CuteDog_02",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CuteDog_02.png",
+      "id": "MTH_animals_109",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_animals_109.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-05-30 20:00:00",
+      "release_date": "1989-05-19 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_CuteDog_04",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CuteDog_04.png",
+      "id": "ERK_pixelfy_animal19",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/ERK_pixelfy_animal19.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-08-14 20:00:00",
+      "release_date": "1987-06-01 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_CuteDog_05",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CuteDog_05.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2020-10-08 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_CuteDog_07",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CuteDog_07.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2020-11-14 0:00:01",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_CuteDog_08",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CuteDog_08.png",
+      "id": "CBN_ai_2023_animal_13_2023-07-14",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2023_animal_13_2023-07-14.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-08-06 20:00:00",
+      "release_date": "2023-07-14 00:00:10",
       "tags": [
-        "animal"
+        "animal",
+        "comic",
+        "treasure"
       ]
     },
     {
-      "id": "MAR_CuteDog_10",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_CuteDog_10.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2020-11-19 00:00:01",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Cuttlefish",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Cuttlefish.png",
+      "id": "MAR_Icon_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Icon_02.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1990-01-19 20:00:00",
+      "release_date": "2021-01-09 00:00:02",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "MAR_Dog",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Dog.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1988-01-07 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_DogBoy",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_DogBoy.png",
+      "id": "KIO_fables_1",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_fables_1.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "1989-06-25 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Fish",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Fish.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1989-07-21 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Fox",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Fox.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1988-05-08 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_FoxLowPoly",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FoxLowPoly.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1988-04-09 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_FoxNot",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FoxNot.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1989-07-06 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_FoxTerrier",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FoxTerrier.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1987-12-04 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Free_07",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Free_07.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2021-10-07 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Free_12",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Free_12.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2021-05-02 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_GermanSplitz",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_GermanSplitz.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1988-04-21 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_Giraffe",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Giraffe.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1987-10-10 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_GoldFish",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_GoldFish.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1989-11-05 20:00:00",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAR_HammerShark",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_HammerShark.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "1989-09-28 20:00:00",
+      "release_date": "1988-02-29 20:00:00",
       "tags": [
         "animal"
       ]

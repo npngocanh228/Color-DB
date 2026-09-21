@@ -9,25 +9,95 @@
   "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/tag/holiday/page_12.json",
   "images": [
     {
-      "id": "BRU_thanksgiving_200",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_200.png",
+      "id": "TBS_stc_Dia_de_Muertos_448",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_Dia_de_Muertos_448.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2012-04-03 20:00:00",
+      "tags": [
+        "holiday",
+        "special",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "BRU_stpatricksday_38",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_stpatricksday_38.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2012-02-28 20:00:00",
+      "tags": [
+        "holiday",
+        "special",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "TBS_stc_Happy_New_Year_506",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_Happy_New_Year_506.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2012-09-13 20:00:00",
+      "tags": [
+        "holiday",
+        "special"
+      ]
+    },
+    {
+      "id": "TBS_stc_newyear_34",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_newyear_34.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-11-21 00:00:01",
+      "release_date": "2001-02-02 20:00:00",
       "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_201",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_201.png",
+      "id": "KIO_2022_GoldenWeekJp_04",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_GoldenWeekJp_04.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-04-24 00:00:04",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "MAC_2023_EarthDay23_06",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_EarthDay23_06.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2023-04-22 00:00:04",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "KIO_2024_Halloween24_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Halloween24_01.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-11-24 00:00:01",
+      "release_date": "2024-10-28 00:00:02",
+      "tags": [
+        "holiday",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "MAR_Spring_09",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Spring_09.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2012-06-06 20:00:00",
       "tags": [
         "holiday",
         "special",
@@ -35,355 +105,255 @@
       ]
     },
     {
-      "id": "BRU_thanksgiving_205",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_205.png",
+      "id": "TBS_stc_Labor_Day_274",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_Labor_Day_274.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-11-24 00:00:01",
+      "release_date": "2012-12-01 20:00:00",
+      "tags": [
+        "holiday",
+        "special"
+      ]
+    },
+    {
+      "id": "KIO_2023_Ramadan23_06",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Ramadan23_06.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2023-03-24 00:00:04",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "KIO_2023_WomensDay24_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_WomensDay24_01.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2024-03-07 00:00:04",
       "tags": [
         "holiday",
         "dynamic_holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_207",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_207.png",
+      "id": "BRU_labor_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_labor_01.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-11-21 00:00:01",
+      "release_date": "2011-03-31 20:00:00",
       "tags": [
         "holiday",
-        "special",
+        "special"
+      ]
+    },
+    {
+      "id": "KIO_2022_Oktoberfest_04",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_Oktoberfest_04.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-09-17 00:00:04",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "MAC_2022_WorldRefugeeDay_07",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_WorldRefugeeDay_07.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-06-20 00:00:04",
+      "tags": [
+        "holiday"
+      ]
+    },
+    {
+      "id": "MAC_2022_Autumn_09",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_Autumn_09.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-09-20 00:00:03",
+      "tags": [
+        "holiday",
         "dynamic_holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_208",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_208.png",
+      "id": "KIO_2024_Autumn24_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Autumn24_02.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-12-02 00:00:01",
+      "release_date": "2024-09-21 00:00:04",
       "tags": [
         "holiday",
-        "special",
         "dynamic_holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_209",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_209.png",
+      "id": "KIO_2024_CuteWitches_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CuteWitches_02.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-12-03 00:00:01",
+      "release_date": "2024-10-15 00:00:02",
       "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_211",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_211.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2020-12-01 00:00:01",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_thanksgiving_212",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_212.png",
+      "id": "MAC_2023_4thJuly23_01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_4thJuly23_01.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-12-01 00:00:01",
+      "release_date": "2023-06-30 00:00:02",
       "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_213",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_213.png",
+      "id": "BRU_summer_202",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_summer_202.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-12-03 00:00:01",
+      "release_date": "2021-06-22 00:00:02",
       "tags": [
         "holiday",
-        "special",
         "dynamic_holiday"
       ]
     },
     {
-      "id": "BRU_thanksgiving_214",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgiving_214.png",
+      "id": "KIO_2024_Spring24_Giant",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Spring24_Giant.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2024-03-20 00:00:04",
+      "tags": [
+        "holiday",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "KIO_2025_PrideMonth25_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_PrideMonth25_02.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2020-12-02 00:00:01",
+      "release_date": "2025-06-27 00:00:01",
       "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_thanksgivingday_20",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgivingday_20.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2012-04-14 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_thanksgivingday_21",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgivingday_21.png",
+      "id": "NEW_YEAR_PBN_0000_calendar",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/NEW_YEAR_PBN_0000_calendar.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2012-08-07 20:00:00",
+      "release_date": "2000-10-31 20:00:00",
       "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_thanksgivingday_22",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgivingday_22.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2012-09-17 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_thanksgivingday_52",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgivingday_52.png",
+      "id": "HSV_st_patricks_day03",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_st_patricks_day03.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2000-11-13 20:00:00",
+      "release_date": "2001-06-28 20:00:00",
       "tags": [
         "holiday",
         "dynamic_holiday"
       ]
     },
     {
-      "id": "BRU_thanksgivingday_54",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgivingday_54.png",
+      "id": "MAR_diaMuertos2_06",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_diaMuertos2_06.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2021-11-03 00:00:03",
+      "tags": [
+        "holiday",
+        "dynamic_holiday"
+      ]
+    },
+    {
+      "id": "HSV_animal324",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal324.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2002-04-01 20:00:00",
+      "release_date": "2001-01-07 20:00:00",
       "tags": [
-        "holiday",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_thanksgivingday_55",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_thanksgivingday_55.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2001-08-01 20:00:00",
-      "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_01",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_01.png",
+      "id": "MAC_2024_SummerVacation24_09",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2024_SummerVacation24_09.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2001-10-20 20:00:00",
+      "release_date": "2024-06-21 00:00:02",
       "tags": [
         "holiday",
         "dynamic_holiday"
       ]
     },
     {
-      "id": "BRU_valentinesday_02",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_02.png",
+      "id": "MAC_2025_GeekPride25_03",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2025_GeekPride25_03.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2001-10-21 20:00:00",
+      "release_date": "2025-05-23 00:00:02",
       "tags": [
-        "holiday",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_valentinesday_100",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_100.png",
+      "id": "KIO_2024_QixiFestival24_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_QixiFestival24_02.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2021-02-11 00:00:02",
+      "release_date": "2024-08-10 00:00:01",
       "tags": [
-        "holiday",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_valentinesday_101",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_101.png",
-      "free": "true",
+      "id": "KIO_2023_EmojiDay23_08",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_EmojiDay23_08.png",
+      "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2021-02-16 00:00:05",
+      "release_date": "2023-07-15 00:00:01",
       "tags": [
-        "holiday",
-        "dynamic_holiday"
+        "holiday"
       ]
     },
     {
-      "id": "BRU_valentinesday_104",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_104.png",
+      "id": "KIO_2021_sports_1",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2021_sports_1.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2021-02-13 00:00:05",
+      "release_date": "2021-08-04 00:00:04",
       "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_108",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_108.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2021-02-14 00:00:05",
-      "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_110",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_110.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2021-02-16 00:00:04",
-      "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_111",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_111.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2021-02-12 00:00:04",
-      "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_32",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_32.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2011-01-06 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_34",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_34.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2012-08-11 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_36",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_36.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2011-07-17 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_38",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_38.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2012-03-25 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_39",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_39.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2011-04-18 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "BRU_valentinesday_40",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_valentinesday_40.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2011-10-09 20:00:00",
-      "tags": [
-        "holiday",
-        "special",
-        "dynamic_holiday"
+        "holiday"
       ]
     }
   ]

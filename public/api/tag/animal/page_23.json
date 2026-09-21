@@ -2,66 +2,228 @@
   "category": "animal",
   "page": 23,
   "limit": 30,
-  "total_items": 1494,
+  "total_items": 1493,
   "total_pages": 50,
   "has_more": true,
   "next_page": 24,
   "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/tag/animal/page_24.json",
   "images": [
     {
-      "id": "KIO_2023_SurpriseImage_2023-12-11",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-12-11.png",
+      "id": "MAR_FoxLowPoly",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_FoxLowPoly.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2023-12-11 00:00:05",
-      "tags": [
-        "animal",
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2023_SurpriseImage_2023-12-14",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-12-14.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2023-12-14 00:00:05",
-      "tags": [
-        "animal",
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2023_SurpriseImage_2023-12-19",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-12-19.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2023-12-19 00:00:05",
-      "tags": [
-        "animal",
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2023_Vacations_01",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Vacations_01.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2023-07-23 00:00:02",
+      "release_date": "1988-04-09 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "KIO_2023_Vacations_09",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Vacations_09.png",
+      "id": "MAR_Horse_05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_Horse_05.png",
       "free": "false",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2024-01-17 00:00:02",
+      "release_date": "2021-12-13 00:00:02",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2023_Frogs_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_Frogs_02.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2023-06-05 00:00:03",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "HSV_animal247",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal247.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1987-06-26 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "TBS_stc_animal_199",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_199.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-02-23 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2022_misc_22",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_misc_22.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-10-01 00:00:03",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_rainbow_1",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_rainbow_1.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1987-04-11 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "BRU_animals_667",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_667.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-09-10 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "TBS_stc_animal_704",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_704.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-08-07 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2023_CrackedEggs_05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_CrackedEggs_05.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2023-08-27 00:00:04",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MTH_animals_210",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_animals_210.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-06-14 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_animals_17",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_animals_17.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-12-19 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2023_SausageDogs_02",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_SausageDogs_02.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2023-11-10 00:00:04",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "CBN_AI_2026_May_Random_animal15",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_AI_2026_May_Random_animal15.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2026-05-09 00:00:03",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "ERK_pixelfy_animal01",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/ERK_pixelfy_animal01.png",
+      "free": "true",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1987-02-12 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2024_RandomAnimals_07",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_RandomAnimals_07.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2024-07-07 00:00:02",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2025_ChubbyAnimals_08",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_ChubbyAnimals_08.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2026-08-27 00:00:02",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "HSV_animal31",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal31.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-12-13 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "HSV_animal198",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal198.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-11-15 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "HSV_animal17",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal17.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-04-20 20:00:00",
       "tags": [
         "animal"
       ]
@@ -78,266 +240,100 @@
       ]
     },
     {
-      "id": "KIO_2023_WildlifeDay23_04",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_WildlifeDay23_04.png",
+      "id": "HSV_animal194",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal194.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1988-04-01 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2025_SnackAnimals_04",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2025_SnackAnimals_04.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2026-08-13 00:00:04",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2021_dogbreeds_8",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2021_dogbreeds_8.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2023-04-03 00:00:04",
+      "release_date": "2022-01-16 00:00:04",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "KIO_2023_WildlifeDay23_05",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_WildlifeDay23_05.png",
+      "id": "BRU_animals_794",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_794.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1987-08-12 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "KIO_2022_Animals_05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_Animals_05.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2022-08-27 00:00:01",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "SEAFOOD2",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/SEAFOOD2.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "1989-03-16 20:00:00",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "MAC_2023_Butterflies_03",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2023_Butterflies_03.png",
+      "free": "false",
+      "gif": false,
+      "pixelCount": 0,
+      "release_date": "2024-04-27 00:00:02",
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "PLN_photo_05",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/PLN_photo_05.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2023-05-28 00:00:05",
-      "tags": [
-        "animal",
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2024_AnimalGems_07",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_AnimalGems_07.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-07-28 00:00:02",
+      "release_date": "1987-02-07 20:00:00",
       "tags": [
         "animal"
       ]
     },
     {
-      "id": "KIO_2024_ChubbyAnimals_02",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_ChubbyAnimals_02.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2025-01-05 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_ChubbyAnimals_05",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_ChubbyAnimals_05.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2025-02-03 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_ChubbyAnimals_06",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_ChubbyAnimals_06.png",
+      "id": "FALCON",
+      "url": "https://npngocanh228.github.io/Color-DB/public/images/FALCON.png",
       "free": "true",
       "gif": false,
       "pixelCount": 0,
-      "release_date": "2025-02-27 00:00:04",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_06",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_06.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-07-27 00:00:04",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_13",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_13.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-07-28 00:00:04",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_15",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_15.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-07-31 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_16",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_16.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-07-31 00:00:04",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_18",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_18.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-08-17 00:00:04",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_19",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_19.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-08-18 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CoolAnimals_20",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CoolAnimals_20.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2026-08-18 00:00:04",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CutePonies_01",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CutePonies_01.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-08-11 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CutePonies_02",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CutePonies_02.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-07-31 00:00:01",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CutePonies_03",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CutePonies_03.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-11-16 00:00:03",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CutePonies_04",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CutePonies_04.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2025-01-09 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CutePonies_05",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CutePonies_05.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2025-02-26 00:00:01",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_CutePonies_06",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CutePonies_06.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2025-01-11 00:00:03",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_Monkeys_01",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Monkeys_01.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-06-26 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_Monkeys_02",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Monkeys_02.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-07-12 00:00:01",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_Monkeys_03",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Monkeys_03.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-06-09 00:00:03",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_Monkeys_04",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Monkeys_04.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-07-01 00:00:02",
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "KIO_2024_Monkeys_05",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_Monkeys_05.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 0,
-      "release_date": "2024-07-30 00:00:04",
+      "release_date": "1988-12-08 20:00:00",
       "tags": [
         "animal"
       ]
