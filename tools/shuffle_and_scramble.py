@@ -146,11 +146,65 @@ def run():
 
         # B. Ảnh từ kho tranh lớn (ghép chung vào)
         tag_keys = [folder, folder.rstrip("s"), folder + "s"]
+        if folder == "animals":
+            tag_keys += ["animal", "animals", "dog", "dogs", "cat", "cats", "bird", "birds", "pet", "pets", "wildlife", "zoo"]
+
         seen_in_cat = {item["url"] for item in category_items}
+
+        # Nếu là category animals, gộp thêm toàn bộ tranh trong folder artworks/dog/
+        if folder == "animals":
+            dog_dir = os.path.join(ARTWORKS_DIR, "dog")
+            if os.path.isdir(dog_dir):
+                for fname in sorted(os.listdir(dog_dir)):
+                    if fname.lower().endswith((".png", ".gif")):
+                        img_id = f"dog_{fname.split('.')[0]}"
+                        url = f"{CDN_BASE}artworks/dog/{fname}"
+                        if url not in seen_in_cat:
+                            seen_in_cat.add(url)
+                            category_items.append({
+                                "id": img_id,
+                                "title": scramble_title(img_id, meta["name"]),
+                                "file_name": fname,
+                                "url": url,
+                                "thumbnail_url": url,
+                                "category": folder,
+                                "category_name": meta["name"],
+                                "category_name_en": meta["name_en"],
+                                "free": True,
+                                "gif": fname.lower().endswith(".gif"),
+                                "pixelCount": 1000
+                            })
+
         for tk in tag_keys:
             if tk in tag_to_big_images:
                 for b_img in tag_to_big_images[tk]:
                     b_id = b_img.get("id")
+                    is_gif = b_img.get("gif", False) or b_img.get("contentType") == "gif"
+                    ext = ".gif" if is_gif else ".png"
+                    b_url = f"{CDN_BASE}images/{b_id}{ext}"
+                    if b_url not in seen_in_cat:
+                        seen_in_cat.add(b_url)
+                        category_items.append({
+                            "id": b_id,
+                            "title": scramble_title(b_id, meta["name"]),
+                            "file_name": f"{b_id}{ext}",
+                            "url": b_url,
+                            "thumbnail_url": b_url,
+                            "category": folder,
+                            "category_name": meta["name"],
+                            "category_name_en": meta["name_en"],
+                            "free": b_img.get("free", True),
+                            "gif": is_gif,
+                            "pixelCount": b_img.get("pixelCount", 1000)
+                        })
+
+        # Nếu là category animals, quét thêm tất cả ảnh có tên ID chứa từ khóa động vật
+        if folder == "animals":
+            ANIMAL_KW = ["cat", "dog", "puppy", "kitten", "bird", "fish", "lion", "tiger", "bear", "elephant", "rabbit", "bunny", "horse", "deer", "monkey", "panda", "dino", "dragon", "wolf", "fox", "owl", "penguin", "whale", "dolphin", "shark", "frog", "hamster", "duck", "pig", "cow", "sheep", "zebra", "giraffe", "snake", "turtle", "butterfly", "bee", "koala", "unicorn", "sloth", "corgi", "chihuahua", "husky", "bulldog", "poodle", "parrot", "otter", "capybara"]
+            for b_img in raw_images:
+                b_id = b_img.get("id", "")
+                b_lower = b_id.lower()
+                if any(kw in b_lower for kw in ANIMAL_KW):
                     is_gif = b_img.get("gif", False) or b_img.get("contentType") == "gif"
                     ext = ".gif" if is_gif else ".png"
                     b_url = f"{CDN_BASE}images/{b_id}{ext}"
