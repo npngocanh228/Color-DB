@@ -15,11 +15,13 @@ ALL_API_DIR = os.path.join(API_DIR, "all")
 CATALOG_PATH = os.path.join(PUBLIC_DIR, "imagesupdates_android_compressed.json")
 CATALOG_GZ = os.path.join(PUBLIC_DIR, "imagesupdates_android_compressed.json.gz")
 
+import time
+
 CDN_BASE = "https://npngocanh228.github.io/Color-DB/public/"
 PAGE_SIZE = 30
 
-# Dùng seed cố định để thứ tự xáo trộn luôn ổn định sau mỗi lần chạy (không bị nhảy loạn giữa các lần push)
-SEED = 20260916
+# Dùng seed ngẫu nhiên động theo thời gian thực để mỗi lần chạy data được xáo ngẫu nhiên
+SEED = int(time.time())
 rng = random.Random(SEED)
 
 CATEGORY_META = {
@@ -64,8 +66,12 @@ CATEGORY_META = {
 }
 
 
-def scramble_title(img_id, category_name):
-    """Tạo title ngẫu nhiên nghệ thuật, tránh lộ thứ tự 01, 02..."""
+def scramble_title(img_id, category_name, fname=""):
+    """Tạo title nghệ thuật hoặc tên tranh đẹp từ file_name"""
+    if fname and fname.startswith("art_"):
+        clean_name = fname.split('.')[0].replace("art_", "")
+        words = clean_name.split("_")
+        return " ".join(w.capitalize() for w in words)
     h = hashlib.md5(img_id.encode('utf-8')).hexdigest()[:4].upper()
     return f"{category_name} #{h}"
 
@@ -106,10 +112,9 @@ def run():
             tag_to_big_images[t_clean].append(img)
 
     # 2. Xáo trộn và phân trang cho Category-based API
-    print("[*] 2. Đang xáo trộn và tái phân trang theo Categories...")
+    print("[*] 2. Đang xáo trộn và tái phân trang theo Categories (Ưu tiên tranh mới)...")
     os.makedirs(CAT_API_DIR, exist_ok=True)
     categories_list = []
-    seen_urls_global = set()
 
     folders = sorted(os.listdir(ARTWORKS_DIR))
     for folder in folders:
@@ -122,17 +127,19 @@ def run():
             "name_en": folder.replace("_", " ").title()
         })
 
-        category_items = []
+        priority_new_items = []
+        curated_items = []
+        catalog_items = []
 
-        # A. Ảnh từ artworks/{folder}/ (772 tranh của PixelArtPaint)
+        # A. Ảnh từ artworks/{folder}/
         files = sorted(os.listdir(cat_dir))
         for fname in files:
             if fname.lower().endswith((".png", ".gif")):
                 img_id = f"{folder}_{fname.split('.')[0]}"
                 url = f"{CDN_BASE}artworks/{folder}/{fname}"
-                category_items.append({
+                item_data = {
                     "id": img_id,
-                    "title": scramble_title(img_id, meta["name"]),
+                    "title": scramble_title(img_id, meta["name"], fname),
                     "file_name": fname,
                     "url": url,
                     "thumbnail_url": url,
@@ -142,14 +149,13 @@ def run():
                     "free": True if folder != "vip" else False,
                     "gif": fname.lower().endswith(".gif"),
                     "pixelCount": 1000
-                })
+                }
+                if fname.startswith("art_"):
+                    priority_new_items.append(item_data)
+                else:
+                    curated_items.append(item_data)
 
-        # B. Ảnh từ kho tranh lớn (ghép chung vào)
-        tag_keys = [folder, folder.rstrip("s"), folder + "s"]
-        if folder == "animals":
-            tag_keys += ["animal", "animals", "dog", "dogs", "cat", "cats", "bird", "birds", "pet", "pets", "wildlife", "zoo"]
-
-        seen_in_cat = {item["url"] for item in category_items}
+        seen_in_cat = {item["url"] for item in (priority_new_items + curated_items)}
 
         # Nếu là category animals, gộp thêm toàn bộ tranh trong folder artworks/dog/
         if folder == "animals":
@@ -161,9 +167,9 @@ def run():
                         url = f"{CDN_BASE}artworks/dog/{fname}"
                         if url not in seen_in_cat:
                             seen_in_cat.add(url)
-                            category_items.append({
+                            item_data = {
                                 "id": img_id,
-                                "title": scramble_title(img_id, meta["name"]),
+                                "title": scramble_title(img_id, meta["name"], fname),
                                 "file_name": fname,
                                 "url": url,
                                 "thumbnail_url": url,
@@ -173,7 +179,16 @@ def run():
                                 "free": True,
                                 "gif": fname.lower().endswith(".gif"),
                                 "pixelCount": 1000
-                            })
+                            }
+                            if fname.startswith("art_"):
+                                priority_new_items.append(item_data)
+                            else:
+                                curated_items.append(item_data)
+
+        # B. Ảnh từ kho tranh lớn (catalog)
+        tag_keys = [folder, folder.rstrip("s"), folder + "s"]
+        if folder == "animals":
+            tag_keys += ["animal", "animals", "dog", "dogs", "cat", "cats", "bird", "birds", "pet", "pets", "wildlife", "zoo"]
 
         for tk in tag_keys:
             if tk in tag_to_big_images:
@@ -184,7 +199,7 @@ def run():
                     b_url = f"{CDN_BASE}images/{b_id}{ext}"
                     if b_url not in seen_in_cat:
                         seen_in_cat.add(b_url)
-                        category_items.append({
+                        catalog_items.append({
                             "id": b_id,
                             "title": scramble_title(b_id, meta["name"]),
                             "file_name": f"{b_id}{ext}",
@@ -198,7 +213,7 @@ def run():
                             "pixelCount": b_img.get("pixelCount", 1000)
                         })
 
-        # Nếu là category animals, quét thêm tất cả ảnh có tên ID chứa từ khóa động vật
+        # Nếu là category animals, quét thêm tất cả ảnh có ID chứa từ khóa động vật
         if folder == "animals":
             ANIMAL_KW = ["cat", "dog", "puppy", "kitten", "bird", "fish", "lion", "tiger", "bear", "elephant", "rabbit", "bunny", "horse", "deer", "monkey", "panda", "dino", "dragon", "wolf", "fox", "owl", "penguin", "whale", "dolphin", "shark", "frog", "hamster", "duck", "pig", "cow", "sheep", "zebra", "giraffe", "snake", "turtle", "butterfly", "bee", "koala", "unicorn", "sloth", "corgi", "chihuahua", "husky", "bulldog", "poodle", "parrot", "otter", "capybara"]
             for b_img in raw_images:
@@ -210,7 +225,7 @@ def run():
                     b_url = f"{CDN_BASE}images/{b_id}{ext}"
                     if b_url not in seen_in_cat:
                         seen_in_cat.add(b_url)
-                        category_items.append({
+                        catalog_items.append({
                             "id": b_id,
                             "title": scramble_title(b_id, meta["name"]),
                             "file_name": f"{b_id}{ext}",
@@ -224,12 +239,18 @@ def run():
                             "pixelCount": b_img.get("pixelCount", 1000)
                         })
 
-        if not category_items:
+        if not priority_new_items and not curated_items and not catalog_items:
             continue
 
-        # 🔥 XÁO TRỘN NGẪU NHIÊN TOÀN BỘ TRANH TRONG CATEGORY NÀY 🔥
-        # (772 tranh gốc bị phân tán ngẫu nhiên vào hàng nghìn tranh khác, không còn thứ tự 01, 02...)
-        rng.shuffle(category_items)
+        # 🔥 XÁO TRỘN VÀ ƯU TIÊN TRANH MỚI LÊN ĐẦU 🔥
+        # 1. Tranh mới tạo (art_*) được xáo ngẫu nhiên và đưa lên trên cùng (trang 1)
+        # 2. Tranh curated tiếp theo được xáo ngẫu nhiên và theo sau (trang 1, 2, 3...)
+        # 3. Tranh catalog lớn được xáo ngẫu nhiên và xếp ở các trang tiếp theo
+        rng.shuffle(priority_new_items)
+        rng.shuffle(curated_items)
+        rng.shuffle(catalog_items)
+
+        category_items = priority_new_items + curated_items + catalog_items
 
         total_items = len(category_items)
         total_pages = math.ceil(total_items / PAGE_SIZE)
@@ -288,9 +309,43 @@ def run():
     with open(os.path.join(PUBLIC_DIR, "artworks", "categories.json"), "w", encoding="utf-8") as f:
         json.dump(categories_catalog, f, indent=2, ensure_ascii=False)
 
-    # 3. Phân trang ngẫu nhiên cho ALL API
+    # 3. Phân trang ngẫu nhiên cho ALL API (Ưu tiên tranh mới & curated lên đầu)
     print("[*] 3. Đang xáo trộn API all/page_N.json...")
-    all_items = []
+    all_priority_new = []
+    all_curated = []
+    seen_all_urls = set()
+
+    for folder in folders:
+        cat_dir = os.path.join(ARTWORKS_DIR, folder)
+        if not os.path.isdir(cat_dir) or folder.startswith("."):
+            continue
+        meta = CATEGORY_META.get(folder, {
+            "name": folder.replace("_", " ").title(),
+            "name_en": folder.replace("_", " ").title()
+        })
+        for fname in sorted(os.listdir(cat_dir)):
+            if fname.lower().endswith((".png", ".gif")):
+                img_id = f"{folder}_{fname.split('.')[0]}"
+                url = f"{CDN_BASE}artworks/{folder}/{fname}"
+                if url not in seen_all_urls:
+                    seen_all_urls.add(url)
+                    item_data = {
+                        "id": img_id,
+                        "title": scramble_title(img_id, meta["name"], fname),
+                        "file_name": fname,
+                        "url": url,
+                        "thumbnail_url": url,
+                        "free": True if folder != "vip" else False,
+                        "gif": fname.lower().endswith(".gif"),
+                        "pixelCount": 1000,
+                        "tags": [folder, meta["name_en"].lower()]
+                    }
+                    if fname.startswith("art_"):
+                        all_priority_new.append(item_data)
+                    else:
+                        all_curated.append(item_data)
+
+    all_catalog = []
     existing_files = set(os.listdir(IMAGES_DIR))
     for img in raw_images:
         img_id = img.get("id")
@@ -298,19 +353,28 @@ def run():
         ext = ".gif" if is_gif else ".png"
         fname = f"{img_id}{ext}"
         if fname in existing_files:
-            all_items.append({
-                "id": img_id,
-                "title": f"Artwork #{hashlib.md5(img_id.encode('utf-8')).hexdigest()[:4].upper()}",
-                "url": f"{CDN_BASE}images/{fname}",
-                "thumbnail_url": f"{CDN_BASE}images/{fname}",
-                "free": img.get("free", True),
-                "gif": is_gif,
-                "pixelCount": img.get("pixelCount", 1000),
-                "tags": img.get("tags", [])
-            })
+            url = f"{CDN_BASE}images/{fname}"
+            if url not in seen_all_urls:
+                seen_all_urls.add(url)
+                all_catalog.append({
+                    "id": img_id,
+                    "title": f"Artwork #{hashlib.md5(img_id.encode('utf-8')).hexdigest()[:4].upper()}",
+                    "file_name": fname,
+                    "url": url,
+                    "thumbnail_url": url,
+                    "free": img.get("free", True),
+                    "gif": is_gif,
+                    "pixelCount": img.get("pixelCount", 1000),
+                    "tags": img.get("tags", [])
+                })
 
-    # Shuffle all
-    rng.shuffle(all_items)
+    # Shuffle each tier
+    rng.shuffle(all_priority_new)
+    rng.shuffle(all_curated)
+    rng.shuffle(all_catalog)
+
+    all_items = all_priority_new + all_curated + all_catalog
+
     os.makedirs(ALL_API_DIR, exist_ok=True)
     total_all_pages = math.ceil(len(all_items) / PAGE_SIZE)
     for p in range(1, total_all_pages + 1):

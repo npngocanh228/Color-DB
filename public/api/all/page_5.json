@@ -2,739 +2,851 @@
   "category": "all",
   "page": 5,
   "limit": 30,
-  "total_items": 21141,
-  "total_pages": 705,
+  "total_items": 21929,
+  "total_pages": 731,
   "has_more": true,
   "next_page": 6,
   "next_page_url": "https://npngocanh228.github.io/Color-DB/public/api/all/page_6.json",
   "items": [
     {
-      "id": "BKD_animals_01",
-      "title": "Artwork #368B",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BKD_animals_01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BKD_animals_01.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "KIO_2024_RandomFantasy_13",
-      "title": "Artwork #488C",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_RandomFantasy_13.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_RandomFantasy_13.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "fantasy",
-        "surprise"
-      ]
-    },
-    {
-      "id": "rena",
-      "title": "Artwork #A3B3",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/rena.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/rena.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "KIO_2022_cutegothgirl_01",
-      "title": "Artwork #D502",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_cutegothgirl_01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_cutegothgirl_01.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "HSV_animal51",
-      "title": "Artwork #75C9",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal51.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal51.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAC_2022_WorldArtDay_03",
-      "title": "Artwork #EF65",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_WorldArtDay_03.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_WorldArtDay_03.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "pa_animals_28",
-      "title": "Artwork #3FDE",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_28.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_28.png",
+      "id": "love_27",
+      "title": "Tình Yêu #9766",
+      "file_name": "27.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/27.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/27.png",
       "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
+        "love",
+        "love & hearts"
+      ]
+    },
+    {
+      "id": "jigsaw_14",
+      "title": "Ghép Hình #BBFB",
+      "file_name": "14.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/jigsaw/14.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/jigsaw/14.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "jigsaw",
+        "jigsaw"
+      ]
+    },
+    {
+      "id": "birthday_28",
+      "title": "Sinh Nhật #EBC6",
+      "file_name": "28.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/birthday/28.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/birthday/28.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "birthday",
+        "birthday party"
+      ]
+    },
+    {
+      "id": "bonus_bonus_04",
+      "title": "Phần Thưởng #770B",
+      "file_name": "bonus_04.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/bonus/bonus_04.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/bonus/bonus_04.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "bonus",
+        "bonus art"
+      ]
+    },
+    {
+      "id": "love_55",
+      "title": "Tình Yêu #D6A0",
+      "file_name": "55.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/55.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/55.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "love",
+        "love & hearts"
+      ]
+    },
+    {
+      "id": "dailynew_27",
+      "title": "Mỗi Ngày #F4A6",
+      "file_name": "27.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/27.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/27.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailynew",
+        "daily art"
+      ]
+    },
+    {
+      "id": "animals_05",
+      "title": "Động Vật #66FA",
+      "file_name": "05.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/05.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "animals",
         "animals"
       ]
     },
     {
-      "id": "catglass04",
-      "title": "Artwork #AF4C",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/catglass04.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/catglass04.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "pa_cute_16",
-      "title": "Artwork #9B37",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_16.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_16.png",
+      "id": "game_38",
+      "title": "Trò Chơi Retro #7542",
+      "file_name": "38.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/38.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/38.png",
       "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "cute"
+        "game",
+        "retro gaming"
       ]
     },
     {
-      "id": "MAR_friendshipDay2_06",
-      "title": "Artwork #5006",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_friendshipDay2_06.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_friendshipDay2_06.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "KIO_2024_GirlObjects_06",
-      "title": "Artwork #54BE",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_GirlObjects_06.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_GirlObjects_06.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "KIO_2024_CuteStamps_29",
-      "title": "Artwork #F288",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CuteStamps_29.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CuteStamps_29.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object",
-        "surprise"
-      ]
-    },
-    {
-      "id": "BRU_flowers_144",
-      "title": "Artwork #5B2A",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_flowers_144.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_flowers_144.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2022_geek_pride_day_6",
-      "title": "Artwork #9846",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_geek_pride_day_6.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_geek_pride_day_6.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "pa_animals_04",
-      "title": "Artwork #912F",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_04.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_04.png",
+      "id": "cartoon_07",
+      "title": "Hoạt Hình #2731",
+      "file_name": "07.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/07.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/07.png",
       "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "animals"
+        "cartoon",
+        "cartoon"
       ]
     },
     {
-      "id": "HSV_animal330",
-      "title": "Artwork #6913",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal330.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal330.png",
-      "free": "false",
+      "id": "dog_05",
+      "title": "Cún Cưng #93DE",
+      "file_name": "05.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/05.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "holiday"
+        "dog",
+        "cute dogs"
       ]
     },
     {
-      "id": "CBN_ai_2024_DailyImage_2024-05-15",
-      "title": "Artwork #6DCF",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-15.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-15.png",
-      "free": "true",
+      "id": "people_42",
+      "title": "Con Người #33A7",
+      "file_name": "42.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/people/42.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/people/42.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "dailyImage"
-      ]
-    },
-    {
-      "id": "HSV_animal37",
-      "title": "Artwork #3DD3",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal37.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal37.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "CBN_ai_2025_LibraryImages_Oct25_39",
-      "title": "Artwork #844B",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2025_LibraryImages_Oct25_39.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2025_LibraryImages_Oct25_39.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
+        "people",
         "people"
       ]
     },
     {
-      "id": "MAR_giant_04_3",
-      "title": "Artwork #4E2F",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_giant_04_3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_giant_04_3.png",
-      "free": "true",
+      "id": "cute_35",
+      "title": "Đáng Yêu #9B71",
+      "file_name": "35.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/cute/35.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cute/35.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "giant"
+        "cute",
+        "cute"
       ]
     },
     {
-      "id": "homeappliances3",
-      "title": "Artwork #C661",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/homeappliances3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/homeappliances3.png",
-      "free": "true",
+      "id": "animals_23",
+      "title": "Động Vật #E265",
+      "file_name": "23.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/23.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/23.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "object"
+        "animals",
+        "animals"
       ]
     },
     {
-      "id": "KIO_2023_SurpriseImage_2023-10-14",
-      "title": "Artwork #F8AB",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-10-14.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-10-14.png",
-      "free": "false",
+      "id": "animals_20",
+      "title": "Động Vật #926C",
+      "file_name": "20.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/20.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/20.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "animals",
+        "animals"
+      ]
+    },
+    {
+      "id": "game_30",
+      "title": "Trò Chơi Retro #7331",
+      "file_name": "30.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/30.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/30.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "fashion_08",
+      "title": "Thời Trang #7797",
+      "file_name": "08.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/fashion/08.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/fashion/08.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "fashion",
+        "fashion"
+      ]
+    },
+    {
+      "id": "vip_3",
+      "title": "Bộ Sưu Tập VIP #BA65",
+      "file_name": "3.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/vip/3.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/vip/3.png",
+      "free": false,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "vip",
+        "vip collection"
+      ]
+    },
+    {
+      "id": "flowers_69",
+      "title": "Hoa Cỏ #F45D",
+      "file_name": "69.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/flowers/69.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/flowers/69.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "flowers",
+        "flowers"
+      ]
+    },
+    {
+      "id": "portrait_13",
+      "title": "Chân Dung #2669",
+      "file_name": "13.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/13.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/13.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "portrait",
+        "portraits"
+      ]
+    },
+    {
+      "id": "game_26",
+      "title": "Trò Chơi Retro #455B",
+      "file_name": "26.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/26.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/26.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "christmas_12",
+      "title": "Giáng Sinh #F725",
+      "file_name": "12.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/christmas/12.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/christmas/12.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "christmas",
+        "christmas holiday"
+      ]
+    },
+    {
+      "id": "dog_13",
+      "title": "Cún Cưng #2364",
+      "file_name": "13.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/13.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/13.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dog",
+        "cute dogs"
+      ]
+    },
+    {
+      "id": "sports_01",
+      "title": "Thể Thao #1B19",
+      "file_name": "01.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/sports/01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/sports/01.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "sports",
+        "sports & energy"
+      ]
+    },
+    {
+      "id": "music_26",
+      "title": "Âm Nhạc #AAED",
+      "file_name": "26.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/music/26.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/music/26.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "music",
+        "music & beats"
+      ]
+    },
+    {
+      "id": "game_42",
+      "title": "Trò Chơi Retro #37B0",
+      "file_name": "42.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/42.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/42.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "portrait_17",
+      "title": "Chân Dung #A426",
+      "file_name": "17.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/17.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/17.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "portrait",
+        "portraits"
+      ]
+    },
+    {
+      "id": "dailynew_35",
+      "title": "Mỗi Ngày #AC15",
+      "file_name": "35.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/35.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/35.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailynew",
+        "daily art"
+      ]
+    },
+    {
+      "id": "cartoon_28",
+      "title": "Hoạt Hình #86C7",
+      "file_name": "28.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/28.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/28.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cartoon",
+        "cartoon"
+      ]
+    },
+    {
+      "id": "game_36",
+      "title": "Trò Chơi Retro #C6E0",
+      "file_name": "36.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/36.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/36.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "food_79",
+      "title": "Ẩm Thực #9267",
+      "file_name": "79.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/food/79.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/food/79.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
         "food",
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2020_kigurumi_2",
-      "title": "Artwork #9BAD",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2020_kigurumi_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2020_kigurumi_2.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "MAR_2021_steampunk_05",
-      "title": "Artwork #CB69",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_steampunk_05.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_steampunk_05.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "fantasy"
-      ]
-    },
-    {
-      "id": "KIO_mail_3",
-      "title": "Artwork #1111",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mail_3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mail_3.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "CBN_AI_2026_March_DailyImage_2",
-      "title": "Artwork #4F28",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_AI_2026_March_DailyImage_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_AI_2026_March_DailyImage_2.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "dailyImage"
-      ]
-    },
-    {
-      "id": "BRU_animals_1509",
-      "title": "Artwork #52D5",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1509.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1509.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "emoji"
-      ]
-    },
-    {
-      "id": "pa_cute_89",
-      "title": "Artwork #EFF3",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_89.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_89.png",
-      "free": true,
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "TBS_stc_animal_65",
-      "title": "Artwork #E1E0",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_65.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_65.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "MTH_food_138",
-      "title": "Artwork #1AFA",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_138.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_138.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
         "food"
       ]
     }
   ],
   "images": [
     {
-      "id": "BKD_animals_01",
-      "title": "Artwork #368B",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BKD_animals_01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BKD_animals_01.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "KIO_2024_RandomFantasy_13",
-      "title": "Artwork #488C",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_RandomFantasy_13.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_RandomFantasy_13.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "fantasy",
-        "surprise"
-      ]
-    },
-    {
-      "id": "rena",
-      "title": "Artwork #A3B3",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/rena.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/rena.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday",
-        "dynamic_holiday"
-      ]
-    },
-    {
-      "id": "KIO_2022_cutegothgirl_01",
-      "title": "Artwork #D502",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_cutegothgirl_01.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_cutegothgirl_01.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "HSV_animal51",
-      "title": "Artwork #75C9",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal51.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal51.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "MAC_2022_WorldArtDay_03",
-      "title": "Artwork #EF65",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_WorldArtDay_03.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAC_2022_WorldArtDay_03.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "pa_animals_28",
-      "title": "Artwork #3FDE",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_28.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_28.png",
+      "id": "love_27",
+      "title": "Tình Yêu #9766",
+      "file_name": "27.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/27.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/27.png",
       "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
+        "love",
+        "love & hearts"
+      ]
+    },
+    {
+      "id": "jigsaw_14",
+      "title": "Ghép Hình #BBFB",
+      "file_name": "14.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/jigsaw/14.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/jigsaw/14.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "jigsaw",
+        "jigsaw"
+      ]
+    },
+    {
+      "id": "birthday_28",
+      "title": "Sinh Nhật #EBC6",
+      "file_name": "28.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/birthday/28.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/birthday/28.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "birthday",
+        "birthday party"
+      ]
+    },
+    {
+      "id": "bonus_bonus_04",
+      "title": "Phần Thưởng #770B",
+      "file_name": "bonus_04.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/bonus/bonus_04.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/bonus/bonus_04.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "bonus",
+        "bonus art"
+      ]
+    },
+    {
+      "id": "love_55",
+      "title": "Tình Yêu #D6A0",
+      "file_name": "55.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/55.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/love/55.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "love",
+        "love & hearts"
+      ]
+    },
+    {
+      "id": "dailynew_27",
+      "title": "Mỗi Ngày #F4A6",
+      "file_name": "27.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/27.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/27.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailynew",
+        "daily art"
+      ]
+    },
+    {
+      "id": "animals_05",
+      "title": "Động Vật #66FA",
+      "file_name": "05.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/05.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "animals",
         "animals"
       ]
     },
     {
-      "id": "catglass04",
-      "title": "Artwork #AF4C",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/catglass04.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/catglass04.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "pa_cute_16",
-      "title": "Artwork #9B37",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_16.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_16.png",
+      "id": "game_38",
+      "title": "Trò Chơi Retro #7542",
+      "file_name": "38.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/38.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/38.png",
       "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "cute"
+        "game",
+        "retro gaming"
       ]
     },
     {
-      "id": "MAR_friendshipDay2_06",
-      "title": "Artwork #5006",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_friendshipDay2_06.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_friendshipDay2_06.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "KIO_2024_GirlObjects_06",
-      "title": "Artwork #54BE",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_GirlObjects_06.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_GirlObjects_06.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "KIO_2024_CuteStamps_29",
-      "title": "Artwork #F288",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CuteStamps_29.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2024_CuteStamps_29.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object",
-        "surprise"
-      ]
-    },
-    {
-      "id": "BRU_flowers_144",
-      "title": "Artwork #5B2A",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_flowers_144.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_flowers_144.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2022_geek_pride_day_6",
-      "title": "Artwork #9846",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_geek_pride_day_6.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2022_geek_pride_day_6.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "holiday"
-      ]
-    },
-    {
-      "id": "pa_animals_04",
-      "title": "Artwork #912F",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_04.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_animals_04.png",
+      "id": "cartoon_07",
+      "title": "Hoạt Hình #2731",
+      "file_name": "07.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/07.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/07.png",
       "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "animals"
+        "cartoon",
+        "cartoon"
       ]
     },
     {
-      "id": "HSV_animal330",
-      "title": "Artwork #6913",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal330.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal330.png",
-      "free": "false",
+      "id": "dog_05",
+      "title": "Cún Cưng #93DE",
+      "file_name": "05.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/05.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/05.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "holiday"
+        "dog",
+        "cute dogs"
       ]
     },
     {
-      "id": "CBN_ai_2024_DailyImage_2024-05-15",
-      "title": "Artwork #6DCF",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-15.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2024_DailyImage_2024-05-15.png",
-      "free": "true",
+      "id": "people_42",
+      "title": "Con Người #33A7",
+      "file_name": "42.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/people/42.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/people/42.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "dailyImage"
-      ]
-    },
-    {
-      "id": "HSV_animal37",
-      "title": "Artwork #3DD3",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal37.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/HSV_animal37.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "animal"
-      ]
-    },
-    {
-      "id": "CBN_ai_2025_LibraryImages_Oct25_39",
-      "title": "Artwork #844B",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2025_LibraryImages_Oct25_39.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_ai_2025_LibraryImages_Oct25_39.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
+        "people",
         "people"
       ]
     },
     {
-      "id": "MAR_giant_04_3",
-      "title": "Artwork #4E2F",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_giant_04_3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_giant_04_3.png",
-      "free": "true",
+      "id": "cute_35",
+      "title": "Đáng Yêu #9B71",
+      "file_name": "35.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/cute/35.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cute/35.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "giant"
+        "cute",
+        "cute"
       ]
     },
     {
-      "id": "homeappliances3",
-      "title": "Artwork #C661",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/homeappliances3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/homeappliances3.png",
-      "free": "true",
+      "id": "animals_23",
+      "title": "Động Vật #E265",
+      "file_name": "23.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/23.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/23.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
-        "object"
+        "animals",
+        "animals"
       ]
     },
     {
-      "id": "KIO_2023_SurpriseImage_2023-10-14",
-      "title": "Artwork #F8AB",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-10-14.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2023_SurpriseImage_2023-10-14.png",
-      "free": "false",
+      "id": "animals_20",
+      "title": "Động Vật #926C",
+      "file_name": "20.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/20.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/animals/20.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "animals",
+        "animals"
+      ]
+    },
+    {
+      "id": "game_30",
+      "title": "Trò Chơi Retro #7331",
+      "file_name": "30.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/30.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/30.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "fashion_08",
+      "title": "Thời Trang #7797",
+      "file_name": "08.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/fashion/08.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/fashion/08.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "fashion",
+        "fashion"
+      ]
+    },
+    {
+      "id": "vip_3",
+      "title": "Bộ Sưu Tập VIP #BA65",
+      "file_name": "3.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/vip/3.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/vip/3.png",
+      "free": false,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "vip",
+        "vip collection"
+      ]
+    },
+    {
+      "id": "flowers_69",
+      "title": "Hoa Cỏ #F45D",
+      "file_name": "69.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/flowers/69.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/flowers/69.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "flowers",
+        "flowers"
+      ]
+    },
+    {
+      "id": "portrait_13",
+      "title": "Chân Dung #2669",
+      "file_name": "13.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/13.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/13.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "portrait",
+        "portraits"
+      ]
+    },
+    {
+      "id": "game_26",
+      "title": "Trò Chơi Retro #455B",
+      "file_name": "26.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/26.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/26.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "christmas_12",
+      "title": "Giáng Sinh #F725",
+      "file_name": "12.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/christmas/12.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/christmas/12.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "christmas",
+        "christmas holiday"
+      ]
+    },
+    {
+      "id": "dog_13",
+      "title": "Cún Cưng #2364",
+      "file_name": "13.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/13.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dog/13.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dog",
+        "cute dogs"
+      ]
+    },
+    {
+      "id": "sports_01",
+      "title": "Thể Thao #1B19",
+      "file_name": "01.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/sports/01.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/sports/01.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "sports",
+        "sports & energy"
+      ]
+    },
+    {
+      "id": "music_26",
+      "title": "Âm Nhạc #AAED",
+      "file_name": "26.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/music/26.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/music/26.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "music",
+        "music & beats"
+      ]
+    },
+    {
+      "id": "game_42",
+      "title": "Trò Chơi Retro #37B0",
+      "file_name": "42.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/42.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/42.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "portrait_17",
+      "title": "Chân Dung #A426",
+      "file_name": "17.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/17.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/portrait/17.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "portrait",
+        "portraits"
+      ]
+    },
+    {
+      "id": "dailynew_35",
+      "title": "Mỗi Ngày #AC15",
+      "file_name": "35.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/35.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/dailynew/35.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "dailynew",
+        "daily art"
+      ]
+    },
+    {
+      "id": "cartoon_28",
+      "title": "Hoạt Hình #86C7",
+      "file_name": "28.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/28.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/cartoon/28.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "cartoon",
+        "cartoon"
+      ]
+    },
+    {
+      "id": "game_36",
+      "title": "Trò Chơi Retro #C6E0",
+      "file_name": "36.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/36.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/game/36.png",
+      "free": true,
+      "gif": false,
+      "pixelCount": 1000,
+      "tags": [
+        "game",
+        "retro gaming"
+      ]
+    },
+    {
+      "id": "food_79",
+      "title": "Ẩm Thực #9267",
+      "file_name": "79.png",
+      "url": "https://npngocanh228.github.io/Color-DB/public/artworks/food/79.png",
+      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/artworks/food/79.png",
+      "free": true,
       "gif": false,
       "pixelCount": 1000,
       "tags": [
         "food",
-        "surprise"
-      ]
-    },
-    {
-      "id": "KIO_2020_kigurumi_2",
-      "title": "Artwork #9BAD",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2020_kigurumi_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_2020_kigurumi_2.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "people"
-      ]
-    },
-    {
-      "id": "MAR_2021_steampunk_05",
-      "title": "Artwork #CB69",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_steampunk_05.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MAR_2021_steampunk_05.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "fantasy"
-      ]
-    },
-    {
-      "id": "KIO_mail_3",
-      "title": "Artwork #1111",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mail_3.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/KIO_mail_3.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "object"
-      ]
-    },
-    {
-      "id": "CBN_AI_2026_March_DailyImage_2",
-      "title": "Artwork #4F28",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_AI_2026_March_DailyImage_2.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/CBN_AI_2026_March_DailyImage_2.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "dailyImage"
-      ]
-    },
-    {
-      "id": "BRU_animals_1509",
-      "title": "Artwork #52D5",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1509.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/BRU_animals_1509.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "emoji"
-      ]
-    },
-    {
-      "id": "pa_cute_89",
-      "title": "Artwork #EFF3",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_89.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/pa_cute_89.png",
-      "free": true,
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "TBS_stc_animal_65",
-      "title": "Artwork #E1E0",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_65.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/TBS_stc_animal_65.png",
-      "free": "false",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
-        "cute"
-      ]
-    },
-    {
-      "id": "MTH_food_138",
-      "title": "Artwork #1AFA",
-      "url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_138.png",
-      "thumbnail_url": "https://npngocanh228.github.io/Color-DB/public/images/MTH_food_138.png",
-      "free": "true",
-      "gif": false,
-      "pixelCount": 1000,
-      "tags": [
         "food"
       ]
     }
