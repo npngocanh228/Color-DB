@@ -18,12 +18,16 @@ def run():
         with open(file_path, "r", encoding="utf-8") as f:
             pages_data[p] = json.load(f)
 
-    # Đẩy page 2 lên vị trí 1, page 50 lên vị trí 2
-    # Các trang còn lại nối tiếp: page 1 -> trang 3, page 3 -> trang 4, ..., page 49 -> trang 50, page 51 -> trang 51...
-    new_page_order = [2, 50, 1] + [p for p in range(3, TOTAL_PAGES + 1) if p != 50]
+    # Đẩy page 2, 5, 10 lên đầu (vị trí 1, 2, 3)
+    # Page 3 chuyển hẳn xuống trang cuối cùng (trang 80)
+    # Các trang còn lại nối tiếp: [1, 4, 6, 7, 8, 9, 11, ...]
+    middle_pages = [p for p in range(1, TOTAL_PAGES + 1) if p not in (2, 5, 10, 3)]
+    new_page_order = [2, 5, 10] + middle_pages + [3]
 
-    assert len(new_page_order) == TOTAL_PAGES
-    assert set(new_page_order) == set(range(1, TOTAL_PAGES + 1))
+    assert len(new_page_order) == TOTAL_PAGES, f"Tổng số trang {len(new_page_order)} != {TOTAL_PAGES}"
+    assert set(new_page_order) == set(range(1, TOTAL_PAGES + 1)), "Thiếu hoặc thừa trang trong danh sách sắp xếp!"
+
+    print(f"[*] Thứ tự trang mới: 5 trang đầu = {new_page_order[:5]} ... Trang cuối = {new_page_order[-1]}")
 
     # Re-assemble items
     new_pages_items = {}
@@ -72,11 +76,16 @@ def run():
             with open(cat_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
 
-    print(f"[+] Thành công! Đã đẩy page 2 lên vị trí 1 và page 50 lên vị trí 2!")
+    print("[+] Thành công! Đã đẩy Page 2, 5, 10 lên đầu và chuyển Page 3 xuống cuối cùng!")
     print(f"[+] Tổng số tranh: {total_items}, Tổng số trang: {TOTAL_PAGES}")
-    print(f"[+] Trang 1 hiện bắt đầu bằng: {new_pages_items[1][0]['id']} ({new_pages_items[1][0]['title']})")
-    print(f"[+] Trang 2 hiện bắt đầu bằng: {new_pages_items[2][0]['id']} ({new_pages_items[2][0]['title']})")
-    print(f"[+] Trang 3 hiện bắt đầu bằng: {new_pages_items[3][0]['id']} ({new_pages_items[3][0]['title']})")
+    first_p1 = new_pages_items[1][0]
+    first_p2 = new_pages_items[2][0]
+    first_p3 = new_pages_items[3][0]
+    first_p80 = new_pages_items[80][0]
+    print(f"[+] Trang 1 mới (cũ: Page 2): {first_p1['id']} ({first_p1['title']})")
+    print(f"[+] Trang 2 mới (cũ: Page 5): {first_p2['id']} ({first_p2['title']})")
+    print(f"[+] Trang 3 mới (cũ: Page 10): {first_p3['id']} ({first_p3['title']})")
+    print(f"[+] Trang 80 mới (cũ: Page 3): {first_p80['id']} ({first_p80['title']})")
 
 
 if __name__ == "__main__":
