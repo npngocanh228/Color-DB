@@ -96,7 +96,7 @@ def build():
 
         # A. Lấy tranh trực tiếp từ artworks/{folder}/
         files = sorted(os.listdir(cat_dir))
-        for fname in files:
+        for idx, fname in enumerate(files):
             if fname.lower().endswith((".png", ".gif")):
                 img_id = f"{folder}_{fname.split('.')[0]}"
                 url = f"{CDN_BASE}artworks/{folder}/{fname}"
@@ -110,7 +110,7 @@ def build():
                     "category": folder,
                     "category_name": meta["name"],
                     "category_name_en": meta["name_en"],
-                    "free": True if folder != "vip" else False,
+                    "free": False if (folder == "vip" or (idx % 8 != 0)) else True,
                     "gif": fname.lower().endswith(".gif"),
                     "pixelCount": 1000
                 })

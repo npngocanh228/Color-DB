@@ -133,7 +133,7 @@ def run():
 
         # A. Ảnh từ artworks/{folder}/
         files = sorted(os.listdir(cat_dir))
-        for fname in files:
+        for idx, fname in enumerate(files):
             if fname.lower().endswith((".png", ".gif")):
                 img_id = f"{folder}_{fname.split('.')[0]}"
                 url = f"{CDN_BASE}artworks/{folder}/{fname}"
@@ -146,7 +146,7 @@ def run():
                     "category": folder,
                     "category_name": meta["name"],
                     "category_name_en": meta["name_en"],
-                    "free": True if folder != "vip" else False,
+                    "free": False if (folder == "vip" or (idx % 8 != 0)) else True,
                     "gif": fname.lower().endswith(".gif"),
                     "pixelCount": 1000
                 }
@@ -161,7 +161,7 @@ def run():
         if folder == "animals":
             dog_dir = os.path.join(ARTWORKS_DIR, "dog")
             if os.path.isdir(dog_dir):
-                for fname in sorted(os.listdir(dog_dir)):
+                for idx, fname in enumerate(sorted(os.listdir(dog_dir))):
                     if fname.lower().endswith((".png", ".gif")):
                         img_id = f"dog_{fname.split('.')[0]}"
                         url = f"{CDN_BASE}artworks/dog/{fname}"
@@ -176,7 +176,7 @@ def run():
                                 "category": folder,
                                 "category_name": meta["name"],
                                 "category_name_en": meta["name_en"],
-                                "free": True,
+                                "free": False if (idx % 8 != 0) else True,
                                 "gif": fname.lower().endswith(".gif"),
                                 "pixelCount": 1000
                             }
